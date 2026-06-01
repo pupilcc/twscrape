@@ -7,7 +7,7 @@ import string
 import sys
 import traceback
 from dataclasses import asdict, dataclass, field
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Generator, Optional, Union
 
 import httpx
@@ -70,14 +70,98 @@ class TextLink(JSONTrait):
 
     @staticmethod
     def parse(obj: dict):
-        url1 = obj.get("expanded_url", None)
-        url2 = obj.get("url", None)
-        text = obj.get("display_url", None)
+        url1 = obj.get("expanded_url")
+        url2 = obj.get("url")
+        text = obj.get("display_url")
 
         if not isinstance(url1, str) or not isinstance(url2, str):
             return None
 
         return TextLink(url=url1, text=text, tcourl=url2)
+
+
+@dataclass
+class AccountAbout(JSONTrait):
+    screen_name: str
+    name: str
+    rest_id: int | None
+    account_based_in: str | None
+    location_accurate: bool | None
+    affiliate_username: str | None
+    source: str | None
+    username_changes: int | None
+    username_last_changed_at: int | None
+    is_identity_verified: bool | None
+    verified_since_msec: int | None
+
+    @staticmethod
+    def parse(obj: dict):
+        about = obj.get("about_profile") or {}
+        core = obj.get("core") or {}
+        verification = obj.get("verification_info", {}) or {}
+        reason = verification.get("reason", {}) or {}
+        return AccountAbout(
+            screen_name=core.get("screen_name", ""),
+            name=core.get("name", ""),
+            rest_id=int_or(obj, "rest_id"),
+            account_based_in=about.get("account_based_in"),
+            location_accurate=about.get("location_accurate"),
+            affiliate_username=about.get("affiliate_username"),
+            source=about.get("source"),
+            username_changes=int_or(about.get("username_changes") or {}, "count"),
+            username_last_changed_at=int_or(
+                about.get("username_changes") or {}, "last_changed_at_msec"
+            ),
+            is_identity_verified=verification.get("is_identity_verified"),
+            verified_since_msec=int_or(reason, "verified_since_msec"),
+        )
+
+
+@dataclass
+class CommunityRule(JSONTrait):
+    id_str: str
+    name: str
+    description: str
+
+    @staticmethod
+    def parse(obj: dict):
+        return CommunityRule(
+            id_str=str(obj.get("rest_id", obj.get("id_str", ""))),
+            name=obj.get("name", ""),
+            description=obj.get("description", ""),
+        )
+
+
+@dataclass
+class Community(JSONTrait):
+    id: int
+    id_str: str
+    name: str
+    description: str | None
+    memberCount: int
+    moderatorCount: int
+    rules: list[CommunityRule]
+    topicId: str | None = None
+    topicName: str | None = None
+    isNsfw: bool | None = None
+
+    @staticmethod
+    def parse(obj: dict):
+        id_str = str(obj.get("rest_id") or obj.get("id_str") or "")
+        topic = obj.get("primary_community_topic") or {}
+        rules = [CommunityRule.parse(x) for x in obj.get("rules", [])]
+        return Community(
+            id=int(id_str),
+            id_str=id_str,
+            name=obj.get("name", ""),
+            description=obj.get("description"),
+            memberCount=obj.get("member_count", 0),
+            moderatorCount=obj.get("moderator_count", 0),
+            rules=rules,
+            topicId=topic.get("topic_id"),
+            topicName=topic.get("topic_name"),
+            isNsfw=obj.get("is_nsfw"),
+        )
 
 
 @dataclass
@@ -137,7 +221,9 @@ class User(JSONTrait):
             username=obj["screen_name"],
             displayname=obj["name"],
             rawDescription=obj["description"],
-            created=email.utils.parsedate_to_datetime(obj["created_at"]),
+            created=email.utils.parsedate_to_datetime(obj["created_at"])
+            if obj.get("created_at")
+            else datetime(1970, 1, 1, tzinfo=timezone.utc),
             followersCount=obj["followers_count"],
             friendsCount=obj["friends_count"],
             statusesCount=obj["statuses_count"],
@@ -180,8 +266,8 @@ class Tweet(JSONTrait):
     viewCount: int | None = None
     retweetedTweet: Optional["Tweet"] = None
     quotedTweet: Optional["Tweet"] = None
-    place: Optional[Place] = None
-    coordinates: Optional[Coordinates] = None
+    place: Place | None = None
+    coordinates: Coordinates | None = None
     inReplyToTweetId: int | None = None
     inReplyToTweetIdStr: str | None = None
     inReplyToUser: UserRef | None = None
@@ -190,6 +276,12 @@ class Tweet(JSONTrait):
     sourceLabel: str | None = None
     card: Union[None, "SummaryCard", "PollCard", "BroadcastCard", "AudiospaceCard"] = None
     possibly_sensitive: bool | None = None
+    isQuoteStatus: bool = False
+    isTranslatable: bool = False
+    displayTextRange: list[int] | None = None
+    inReplyToScreenName: str | None = None
+    editControl: dict | None = None
+    voiceInfo: dict | None = None
     _type: str = "snscrape.modules.twitter.Tweet"
 
     # todo:
@@ -245,12 +337,18 @@ class Tweet(JSONTrait):
             inReplyToTweetId=int_or(obj, "in_reply_to_status_id_str"),
             inReplyToTweetIdStr=get_or(obj, "in_reply_to_status_id_str"),
             inReplyToUser=_get_reply_user(obj, res),
-            source=obj.get("source", None),
+            source=obj.get("source"),
             sourceUrl=_get_source_url(obj),
             sourceLabel=_get_source_label(obj),
             media=Media.parse(obj),
             card=_parse_card(obj, url),
-            possibly_sensitive=obj.get("possibly_sensitive", None),
+            possibly_sensitive=obj.get("possibly_sensitive"),
+            isQuoteStatus=obj.get("is_quote_status", False),
+            isTranslatable=obj.get("is_translatable", False),
+            displayTextRange=obj.get("display_text_range"),
+            inReplyToScreenName=obj.get("in_reply_to_screen_name"),
+            editControl=obj.get("edit_control"),
+            voiceInfo=obj.get("voice_info"),
         )
 
         # issue #42 – restore full rt text
@@ -412,27 +510,30 @@ class TrendUrl(JSONTrait):
 
     @staticmethod
     def parse(obj: dict):
+        params = []
+        if "urtEndpointOptions" in obj:
+            params = [
+                RequestParam(key=x["key"], value=x["value"])
+                for x in obj["urtEndpointOptions"]["requestParams"]
+            ]
         return TrendUrl(
             url=obj["url"],
             urlType=obj["urlType"],
-            urlEndpointOptions=[
-                RequestParam(key=x["key"], value=x["value"])
-                for x in obj["urtEndpointOptions"]["requestParams"]
-            ],
+            urlEndpointOptions=params,
         )
 
 
 @dataclass
 class TrendMetadata(JSONTrait):
-    domain_context: str
-    meta_description: str
+    domain_context: str | None
+    meta_description: str | None
     url: TrendUrl
 
     @staticmethod
     def parse(obj: dict):
         return TrendMetadata(
-            domain_context=obj["domain_context"],
-            meta_description=obj["meta_description"],
+            domain_context=obj.get("domain_context"),
+            meta_description=obj.get("meta_description"),
             url=TrendUrl.parse(obj["url"]),
         )
 
@@ -449,8 +550,8 @@ class GroupedTrend(JSONTrait):
 
 @dataclass
 class Trend(JSONTrait):
-    id: Optional[str]
-    rank: Optional[str | int]
+    id: str | None
+    rank: str | int | None
     name: str
     trend_url: TrendUrl
     trend_metadata: TrendMetadata
@@ -621,7 +722,7 @@ def _parse_card(obj: dict, url: str):
 
 
 def _get_reply_user(tw_obj: dict, res: dict):
-    user_id = tw_obj.get("in_reply_to_user_id_str", None)
+    user_id = tw_obj.get("in_reply_to_user_id_str")
     if user_id is None:
         return None
 
@@ -638,14 +739,14 @@ def _get_reply_user(tw_obj: dict, res: dict):
 
 
 def _get_source_url(tw_obj: dict):
-    source = tw_obj.get("source", None)
+    source = tw_obj.get("source")
     if source and (match := re.search(r'href=[\'"]?([^\'" >]+)', source)):
         return str(match.group(1))
     return None
 
 
 def _get_source_label(tw_obj: dict):
-    source = tw_obj.get("source", None)
+    source = tw_obj.get("source")
     if source and (match := re.search(r">([^<]*)<", source)):
         return str(match.group(1))
     return None
@@ -763,6 +864,30 @@ def parse_trend(rep: httpx.Response) -> Trend | None:
         return None
     except Exception as e:
         logger.error(f"Failed to parse trend - {type(e)}:\n{traceback.format_exc()}")
+        return None
+
+
+def parse_about(rep: httpx.Response | dict) -> AccountAbout | None:
+    try:
+        res = rep if isinstance(rep, dict) else rep.json()
+        obj = get_or(res, "data.user_result_by_screen_name.result")
+        if not obj:
+            return None
+        return AccountAbout.parse(obj)
+    except Exception as e:
+        logger.error(f"Failed to parse about profile - {type(e)}:\n{traceback.format_exc()}")
+        return None
+
+
+def parse_community(rep: httpx.Response | dict) -> Community | None:
+    try:
+        res = rep if isinstance(rep, dict) else rep.json()
+        community = get_or(res, "data.communityResults.result")
+        if not community:
+            return None
+        return Community.parse(community)
+    except Exception as e:
+        logger.error(f"Failed to parse community - {type(e)}:\n{traceback.format_exc()}")
         return None
 
 
