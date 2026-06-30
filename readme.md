@@ -321,6 +321,22 @@ Rate limits are tracked per account and per endpoint. When an account is limited
 
 `user_tweets` and `user_tweets_and_replies` are limited by X/Twitter to about 3200 tweets.
 
+## HTTP Backend
+
+twscrape supports two interchangeable HTTP backends, selected with the `TWS_HTTP_BACKEND` environment variable. Both share the same proxy, cookie, and account handling; only the underlying transport changes, so no code changes are required to switch.
+
+- `httpx` (default) - the standard async HTTP client. No extra dependencies.
+- `curl` - uses `curl-cffi` to impersonate real browser TLS fingerprints (Chrome, Safari, Firefox, Edge). Requires `pip install "twscrape[curl]"`.
+
+When to use which:
+
+- Stick with `httpx` for most setups. It is lighter and has no native dependencies. If scraping works fine, there is no reason to change.
+- Switch to `curl` when you hit fingerprint-style blocking rather than rate limits - for example frequent `403`s, challenges, or accounts failing quickly even below their request limits. Browser TLS impersonation makes requests look like they come from a real browser and can reduce these blocks, at the cost of an extra native dependency.
+
+```bash
+TWS_HTTP_BACKEND=curl twscrape user_by_login xdevelopers
+```
+
 ## Proxy
 
 Use a proxy per account, per API instance, or for CLI commands:
@@ -358,10 +374,15 @@ Do not set `api.proxy` or `TWS_PROXY` when you want per-account proxies to be us
 - `TWS_HTTP_BACKEND` - `httpx` or `curl`
 - `TWS_LOG_LEVEL` - logger level, default `INFO`
 - `TWS_TELEMETRY=0` - disable anonymous telemetry
+- `DO_NOT_TRACK=1` - disable anonymous telemetry (cross-tool standard)
 
 ## Telemetry
 
-twscrape collects anonymous, aggregated telemetry about used GraphQL operation names and the selected HTTP backend. It does not collect usernames, cookies, proxies, queries, request URLs, or response bodies. Disable it with `TWS_TELEMETRY=0`.
+twscrape collects anonymous, aggregated telemetry about used GraphQL operation names, the HTTP method, and the selected HTTP backend. Each event also carries the app version, platform, Python version, and a hashed per-machine id. It does not collect usernames, cookies, proxies, queries, request URLs, or response bodies.
+
+Telemetry is only sent over the network by the CLI, once at the end of a command. When twscrape is used as a library, events accumulate in memory but are never transmitted unless you explicitly call `await twscrape.telemetry.flush()`.
+
+Disable it entirely with either `TWS_TELEMETRY=0` or the cross-tool `DO_NOT_TRACK=1`.
 
 ## See Also
 
