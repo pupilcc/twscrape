@@ -40,16 +40,16 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 4745,
+                          "favourites_count": 4777,
                           "follow_request_sent": false,
-                          "followers_count": 402,
-                          "friends_count": 343,
+                          "followers_count": 371,
+                          "friends_count": 534,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
-                          "media_count": 78,
+                          "media_count": 81,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 402,
+                          "normal_followers_count": 371,
                           "notifications": false,
                           "pinned_tweet_ids_str": [
                             "2011154675379388685"
@@ -57,7 +57,7 @@
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/1615040266527703066/1768331495",
                           "profile_interstitial_type": "",
-                          "statuses_count": 2917,
+                          "statuses_count": 2921,
                           "time_zone": "",
                           "translator_type": "none",
                           "url": "",
@@ -85,6 +85,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1615040266527703066",
@@ -137,7 +138,7 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 1031,
+                          "favourites_count": 1030,
                           "follow_request_sent": false,
                           "followers_count": 1,
                           "friends_count": 19,
@@ -179,6 +180,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "2807094158",
@@ -195,103 +197,6 @@
                 },
                 "entryId": "user-2807094158",
                 "sortIndex": "1829760944710193969"
-              },
-              {
-                "content": {
-                  "__typename": "TimelineTimelineItem",
-                  "entryType": "TimelineTimelineItem",
-                  "itemContent": {
-                    "__typename": "TimelineUser",
-                    "itemType": "TimelineUser",
-                    "userDisplayType": "User",
-                    "user_results": {
-                      "result": {
-                        "__typename": "User",
-                        "affiliates_highlighted_label": {},
-                        "avatar": {
-                          "image_url": "https://pbs.twimg.com/profile_images/1874238848823418881/4lm40x8F_normal.jpg"
-                        },
-                        "core": {
-                          "created_at": "Thu Aug 10 23:28:42 +0000 2023",
-                          "name": "Tina",
-                          "screen_name": "me22y__d"
-                        },
-                        "dm_permissions": {
-                          "can_dm": true
-                        },
-                        "follow_request_sent": false,
-                        "has_graduated_access": true,
-                        "id": "VXNlcjoxNjg5NzgwODA4NDUyODE2ODk4",
-                        "is_blue_verified": false,
-                        "legacy": {
-                          "default_profile": true,
-                          "default_profile_image": false,
-                          "description": ".",
-                          "entities": {
-                            "description": {}
-                          },
-                          "fast_followers_count": 0,
-                          "favourites_count": 3381,
-                          "follow_request_sent": false,
-                          "followers_count": 42,
-                          "friends_count": 701,
-                          "has_custom_timelines": false,
-                          "is_translator": false,
-                          "listed_count": 0,
-                          "media_count": 1,
-                          "needs_phone_verification": false,
-                          "normal_followers_count": 42,
-                          "notifications": false,
-                          "pinned_tweet_ids_str": [
-                            "1837907774451470396"
-                          ],
-                          "possibly_sensitive": false,
-                          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1689780808452816898/1735668707",
-                          "profile_interstitial_type": "",
-                          "statuses_count": 738,
-                          "time_zone": "",
-                          "translator_type": "none",
-                          "url": "",
-                          "utc_offset": 0,
-                          "want_retweets": false,
-                          "withheld_description": "",
-                          "withheld_scope": ""
-                        },
-                        "location": {
-                          "location": ""
-                        },
-                        "media_permissions": {
-                          "can_media_tag": false
-                        },
-                        "privacy": {
-                          "protected": false
-                        },
-                        "profile_bio": {
-                          "description": "."
-                        },
-                        "profile_description_language": "qst",
-                        "profile_image_shape": "Circle",
-                        "relationship_perspectives": {
-                          "blocked_by": false,
-                          "blocking": false,
-                          "followed_by": false,
-                          "following": false,
-                          "muting": false
-                        },
-                        "rest_id": "1689780808452816898",
-                        "super_follow_eligible": false,
-                        "super_followed_by": false,
-                        "super_following": false,
-                        "tipjar_settings": {},
-                        "verification": {
-                          "verified": false
-                        }
-                      }
-                    }
-                  }
-                },
-                "entryId": "user-1689780808452816898",
-                "sortIndex": "1820077254487319406"
               },
               {
                 "content": {
@@ -328,16 +233,16 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 1206,
+                          "favourites_count": 1204,
                           "follow_request_sent": false,
-                          "followers_count": 39,
+                          "followers_count": 38,
                           "friends_count": 13,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 2,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 39,
+                          "normal_followers_count": 38,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/190207978/1731875048",
@@ -370,6 +275,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "190207978",
@@ -424,14 +330,14 @@
                           "fast_followers_count": 0,
                           "favourites_count": 3,
                           "follow_request_sent": false,
-                          "followers_count": 21,
+                          "followers_count": 20,
                           "friends_count": 3,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 0,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 21,
+                          "normal_followers_count": 20,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/1693640288/1731875126",
@@ -464,6 +370,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1693640288",
@@ -507,25 +414,25 @@
                         "follow_request_sent": false,
                         "has_graduated_access": true,
                         "id": "VXNlcjo5MDExODI3Nzk1MTc1MzQyMDg=",
-                        "is_blue_verified": false,
+                        "is_blue_verified": true,
                         "legacy": {
                           "default_profile": true,
                           "default_profile_image": false,
-                          "description": "Biomedical Scientist \ud83d\udc68\ud83c\udffe\u200d\ud83d\udd2c\ud83d\udd2c\ud83e\uddec . \n Roman Catholic\ud83c\uddfb\ud83c\udde6\u271d\ufe0f. Ambivert.\nProudly Igbo. \nA TIRED @manutd fan. \ud83d\ude2b\n#GGMU\ud83d\udd34\n #UTFR \ud83c\uddfe\ud83c\uddea\n\nVeni, Vidi, Vici.",
+                          "description": "Biomedical Scientist \ud83d\udc68\ud83c\udffe\u200d\ud83d\udd2c\ud83d\udd2c\ud83e\uddec . \n Roman Catholic\ud83c\uddfb\ud83c\udde6\u271d\ufe0f. Ambivert.\nProudly Igbo. \nA TIRED @manutd fan. \ud83d\ude2b\n #UTFR \ud83c\uddfe\ud83c\uddea\ud83d\uded1\nVeni, Vidi, Vici.",
                           "entities": {
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 445634,
+                          "favourites_count": 454855,
                           "follow_request_sent": false,
-                          "followers_count": 2302,
-                          "friends_count": 2252,
+                          "followers_count": 2327,
+                          "friends_count": 2199,
                           "has_custom_timelines": true,
                           "is_translator": false,
                           "listed_count": 1,
-                          "media_count": 1817,
+                          "media_count": 1823,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 2302,
+                          "normal_followers_count": 2327,
                           "notifications": false,
                           "pinned_tweet_ids_str": [
                             "2024961003209756753"
@@ -533,7 +440,7 @@
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/901182779517534208/1723840399",
                           "profile_interstitial_type": "",
-                          "statuses_count": 232369,
+                          "statuses_count": 236320,
                           "time_zone": "",
                           "translator_type": "none",
                           "url": "",
@@ -563,7 +470,7 @@
                           "rest_id": "1464943860052901890"
                         },
                         "profile_bio": {
-                          "description": "Biomedical Scientist \ud83d\udc68\ud83c\udffe\u200d\ud83d\udd2c\ud83d\udd2c\ud83e\uddec . \n Roman Catholic\ud83c\uddfb\ud83c\udde6\u271d\ufe0f. Ambivert.\nProudly Igbo. \nA TIRED @manutd fan. \ud83d\ude2b\n#GGMU\ud83d\udd34\n #UTFR \ud83c\uddfe\ud83c\uddea\n\nVeni, Vidi, Vici."
+                          "description": "Biomedical Scientist \ud83d\udc68\ud83c\udffe\u200d\ud83d\udd2c\ud83d\udd2c\ud83e\uddec . \n Roman Catholic\ud83c\uddfb\ud83c\udde6\u271d\ufe0f. Ambivert.\nProudly Igbo. \nA TIRED @manutd fan. \ud83d\ude2b\n #UTFR \ud83c\uddfe\ud83c\uddea\ud83d\uded1\nVeni, Vidi, Vici."
                         },
                         "profile_image_shape": "Circle",
                         "relationship_perspectives": {
@@ -571,6 +478,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "901182779517534208",
@@ -626,16 +534,16 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 445,
+                          "favourites_count": 444,
                           "follow_request_sent": false,
-                          "followers_count": 908,
-                          "friends_count": 1069,
+                          "followers_count": 903,
+                          "friends_count": 1058,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 1,
                           "media_count": 9,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 908,
+                          "normal_followers_count": 903,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/1557054697252524032/1728831040",
@@ -668,6 +576,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1557054697252524032",
@@ -735,14 +644,14 @@
                           "fast_followers_count": 0,
                           "favourites_count": 19,
                           "follow_request_sent": false,
-                          "followers_count": 1125,
+                          "followers_count": 1124,
                           "friends_count": 63,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 1,
                           "media_count": 8,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 1125,
+                          "normal_followers_count": 1124,
                           "notifications": false,
                           "pinned_tweet_ids_str": [
                             "1805317807036678312"
@@ -750,7 +659,7 @@
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/2930110410/1719303351",
                           "profile_interstitial_type": "",
-                          "statuses_count": 2838,
+                          "statuses_count": 2809,
                           "time_zone": "",
                           "translator_type": "none",
                           "url": "https://t.co/l8tGQQoJ0d",
@@ -778,6 +687,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "2930110410",
@@ -903,6 +813,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1680405461277855744",
@@ -997,6 +908,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1706929807328706560",
@@ -1051,14 +963,14 @@
                           "fast_followers_count": 0,
                           "favourites_count": 22,
                           "follow_request_sent": false,
-                          "followers_count": 3,
+                          "followers_count": 2,
                           "friends_count": 48,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 0,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 3,
+                          "normal_followers_count": 2,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/1706876370268422144/1705678757",
@@ -1091,6 +1003,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1706876370268422144",
@@ -1185,6 +1098,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1706571709682503680",
@@ -1239,14 +1153,14 @@
                           "fast_followers_count": 0,
                           "favourites_count": 70,
                           "follow_request_sent": false,
-                          "followers_count": 23,
+                          "followers_count": 22,
                           "friends_count": 64,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 8,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 23,
+                          "normal_followers_count": 22,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "",
@@ -1278,6 +1192,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1672593779545763840",
@@ -1332,14 +1247,14 @@
                           "fast_followers_count": 0,
                           "favourites_count": 8,
                           "follow_request_sent": false,
-                          "followers_count": 15,
+                          "followers_count": 14,
                           "friends_count": 33,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 0,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 15,
+                          "normal_followers_count": 14,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/1720674052715790336/1699561883",
@@ -1371,6 +1286,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1720674052715790336",
@@ -1423,21 +1339,21 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 261,
+                          "favourites_count": 260,
                           "follow_request_sent": false,
-                          "followers_count": 303,
-                          "friends_count": 3417,
+                          "followers_count": 301,
+                          "friends_count": 3395,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 5,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 303,
+                          "normal_followers_count": 301,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/2534108054/1704819706",
                           "profile_interstitial_type": "",
-                          "statuses_count": 522,
+                          "statuses_count": 521,
                           "time_zone": "",
                           "translator_type": "none",
                           "url": "",
@@ -1465,6 +1381,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "2534108054",
@@ -1517,21 +1434,21 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 21,
+                          "favourites_count": 20,
                           "follow_request_sent": false,
-                          "followers_count": 18,
+                          "followers_count": 17,
                           "friends_count": 66,
                           "has_custom_timelines": false,
                           "is_translator": false,
                           "listed_count": 0,
                           "media_count": 0,
                           "needs_phone_verification": false,
-                          "normal_followers_count": 18,
+                          "normal_followers_count": 17,
                           "notifications": false,
                           "possibly_sensitive": false,
                           "profile_banner_url": "https://pbs.twimg.com/profile_banners/1698255639015727104/1702111228",
                           "profile_interstitial_type": "",
-                          "statuses_count": 31,
+                          "statuses_count": 30,
                           "time_zone": "",
                           "translator_type": "none",
                           "url": "",
@@ -1559,6 +1476,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1698255639015727104",
@@ -1653,6 +1571,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1698206963614547968",
@@ -1705,7 +1624,7 @@
                             "description": {}
                           },
                           "fast_followers_count": 0,
-                          "favourites_count": 47,
+                          "favourites_count": 46,
                           "follow_request_sent": false,
                           "followers_count": 99,
                           "friends_count": 89,
@@ -1746,6 +1665,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1698190145453785089",
@@ -1840,6 +1760,7 @@
                           "blocking": false,
                           "followed_by": false,
                           "following": false,
+                          "live_following": false,
                           "muting": false
                         },
                         "rest_id": "1561752128921538561",
@@ -1859,6 +1780,142 @@
               },
               {
                 "content": {
+                  "__typename": "TimelineTimelineItem",
+                  "entryType": "TimelineTimelineItem",
+                  "itemContent": {
+                    "__typename": "TimelineUser",
+                    "itemType": "TimelineUser",
+                    "userDisplayType": "User",
+                    "user_results": {
+                      "result": {
+                        "__typename": "User",
+                        "affiliates_highlighted_label": {},
+                        "avatar": {
+                          "image_url": "https://pbs.twimg.com/profile_images/1458139026653913097/_g_iVgA3_normal.jpg"
+                        },
+                        "core": {
+                          "created_at": "Tue Nov 09 17:41:47 +0000 2021",
+                          "name": "The Whole E Bubble",
+                          "screen_name": "Whole_e_Bubble"
+                        },
+                        "dm_permissions": {
+                          "can_dm": true
+                        },
+                        "follow_request_sent": false,
+                        "has_graduated_access": true,
+                        "id": "VXNlcjoxNDU4MTI3NTUyMzUxMDIzMTEz",
+                        "is_blue_verified": false,
+                        "legacy": {
+                          "default_profile": true,
+                          "default_profile_image": false,
+                          "description": "I am aDreamy dreamilyDreamer;dreamingly dreaming,dreams of an unseen self only seen by dreamy dreamers dreamed dream dreamt!https://t.co/jjxnMZ54H1",
+                          "entities": {
+                            "description": {
+                              "urls": [
+                                {
+                                  "display_url": "cash.app/$FroFroggityFr\u2026",
+                                  "expanded_url": "https://cash.app/$FroFroggityFrowg",
+                                  "indices": [
+                                    124,
+                                    147
+                                  ],
+                                  "url": "https://t.co/jjxnMZ54H1"
+                                }
+                              ]
+                            },
+                            "url": {
+                              "urls": [
+                                {
+                                  "display_url": "thewholeebubble.com",
+                                  "expanded_url": "http://thewholeebubble.com",
+                                  "indices": [
+                                    0,
+                                    23
+                                  ],
+                                  "url": "https://t.co/rmpkFCvG9r"
+                                }
+                              ]
+                            }
+                          },
+                          "fast_followers_count": 0,
+                          "favourites_count": 3643,
+                          "follow_request_sent": false,
+                          "followers_count": 131,
+                          "friends_count": 590,
+                          "has_custom_timelines": false,
+                          "is_translator": false,
+                          "listed_count": 7,
+                          "media_count": 395,
+                          "needs_phone_verification": false,
+                          "normal_followers_count": 131,
+                          "notifications": false,
+                          "pinned_tweet_ids_str": [
+                            "1837901752177230164"
+                          ],
+                          "possibly_sensitive": false,
+                          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1458127552351023113/1656057728",
+                          "profile_interstitial_type": "",
+                          "statuses_count": 1903,
+                          "time_zone": "",
+                          "translator_type": "none",
+                          "url": "https://t.co/rmpkFCvG9r",
+                          "utc_offset": 0,
+                          "want_retweets": false,
+                          "withheld_description": "",
+                          "withheld_scope": ""
+                        },
+                        "location": {
+                          "location": "everywhere and nowhere"
+                        },
+                        "media_permissions": {
+                          "can_media_tag": false
+                        },
+                        "privacy": {
+                          "protected": false
+                        },
+                        "professional": {
+                          "category": [
+                            {
+                              "icon_name": "IconBriefcaseStroke",
+                              "id": 920,
+                              "name": "Other"
+                            }
+                          ],
+                          "professional_type": "Business",
+                          "rest_id": "1485767557080662016"
+                        },
+                        "profile_bio": {
+                          "description": "I am aDreamy dreamilyDreamer;dreamingly dreaming,dreams of an unseen self only seen by dreamy dreamers dreamed dream dreamt!https://t.co/jjxnMZ54H1"
+                        },
+                        "profile_description_language": "en",
+                        "profile_image_shape": "Circle",
+                        "relationship_perspectives": {
+                          "blocked_by": false,
+                          "blocking": false,
+                          "followed_by": false,
+                          "following": false,
+                          "live_following": false,
+                          "muting": false
+                        },
+                        "rest_id": "1458127552351023113",
+                        "super_follow_eligible": false,
+                        "super_followed_by": false,
+                        "super_following": false,
+                        "tipjar_settings": {
+                          "is_enabled": true
+                        },
+                        "verification": {
+                          "verified": false
+                        }
+                      }
+                    }
+                  }
+                },
+                "entryId": "user-1458127552351023113",
+                "sortIndex": "1780040376568990355"
+              },
+              {
+                "content": {
                   "__typename": "TimelineTimelineCursor",
                   "cursorType": "Top",
                   "entryType": "TimelineTimelineCursor",
@@ -1873,10 +1930,10 @@
                   "cursorType": "Bottom",
                   "entryType": "TimelineTimelineCursor",
                   "stopOnEmptyResponse": true,
-                  "value": "HBag3PnIm8aIvTEAAA=="
+                  "value": "HBamqvqz09L8szEAAA=="
                 },
-                "entryId": "cursor-bottom-1782599825985845007",
-                "sortIndex": "1782599825985845007"
+                "entryId": "cursor-bottom-1780040376568990354",
+                "sortIndex": "1780040376568990354"
               }
             ],
             "type": "TimelineAddEntries"
