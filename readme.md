@@ -40,21 +40,6 @@ TWS_HTTP_BACKEND=curl twscrape user_by_login xdevelopers
 - Raw Twitter API responses and parsed SNScrape-compatible models
 - Automatic account switching across rate-limited operations
 
-## Sponsor
-
-<p align="center">
-  <a href="https://www.swiftproxy.net/?ref=twscrape">
-    <img src=".github/swiftproxy.png" alt="Swiftproxy residential proxies" width="460">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.swiftproxy.net/?ref=twscrape"><strong>Swiftproxy</strong></a>
-  provides 90M+ residential IPs across 220+ locations for web scraping,
-  automation, and data collection. Non-expiring traffic, city-level targeting,
-  and a free trial. Use code <code>PROXY90</code> for 10% off.
-</p>
-
 ## Start With Cookies
 
 twscrape requires authorized X/Twitter accounts. The most stable setup is to add an account from browser cookies containing `auth_token` and `ct0`.
@@ -110,6 +95,14 @@ if __name__ == "__main__":
 async for tweet in api.search("open source lang:en", limit=100):
     print(tweet.id, tweet.rawContent)
 ```
+
+Configure what happens when no account is immediately available:
+
+```python
+api = API(raise_when_no_account=True, wait_timeout=30, wait_interval=1)
+```
+
+`wait_timeout` limits how long to wait for a locked account, `wait_interval` controls how often the pool checks again, and `raise_when_no_account` raises `NoAccountError` instead of ending the operation. By default, twscrape waits indefinitely while active accounts are locked.
 
 Search defaults to the Latest tab. Pass `kv={"product": "Top"}` or `kv={"product": "Media"}` to use another search product:
 

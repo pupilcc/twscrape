@@ -1,3 +1,20 @@
+## v0.19.2 – 2026-07-21
+
+### Features
+- Added `wait_timeout` and `wait_interval` options to bound and tune account wait polling (#317, by @Flaburgan)
+
+### Fixes
+- Fixed X client transaction ID generation to use each account's effective proxy (#319, by @kn1l)
+- Fixed X client transaction ID asset requests to use account cookies (#321, by @jonsuh)
+- Fixed X client transaction ID failures incorrectly disabling valid accounts
+
+### Maintenance
+- Updated GraphQL operation IDs for current X API compatibility
+
+**Full Changelog**: https://github.com/vladkens/twscrape/compare/v0.19.1...v0.19.2
+
+---
+
 ## v0.19.1 – 2026-06-26
 
 ### Maintenance

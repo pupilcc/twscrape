@@ -76,16 +76,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 2576,
+                              "favourites_count": 2621,
                               "follow_request_sent": false,
-                              "followers_count": 686723,
-                              "friends_count": 760,
+                              "followers_count": 694648,
+                              "friends_count": 762,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 2949,
-                              "media_count": 827,
+                              "listed_count": 2981,
+                              "media_count": 829,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 686723,
+                              "normal_followers_count": 694648,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "2019881223666233717"
@@ -93,7 +93,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/2244994945/1690213128",
                               "profile_interstitial_type": "",
-                              "statuses_count": 4288,
+                              "statuses_count": 4307,
                               "time_zone": "",
                               "translator_type": "regular",
                               "url": "https://t.co/NIwHVIVyrN",
@@ -169,7 +169,7 @@
                           98
                         ],
                         "entities": {},
-                        "favorite_count": 429,
+                        "favorite_count": 428,
                         "favorited": false,
                         "full_text": "Today, we are deprecating our Premium v1.1 API, including Premium Search and Account Activity API.",
                         "id_str": "1649191520250245121",
@@ -177,7 +177,7 @@
                         "lang": "en",
                         "quote_count": 118,
                         "reply_count": 93,
-                        "retweet_count": 205,
+                        "retweet_count": 202,
                         "retweeted": false,
                         "user_id_str": "2244994945"
                       },
@@ -188,7 +188,7 @@
                       "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
                       "unmention_data": {},
                       "views": {
-                        "count": "979385",
+                        "count": "979407",
                         "state": "EnabledWithCount"
                       }
                     }
@@ -196,7 +196,7 @@
                 }
               },
               "entryId": "tweet-1649191520250245121",
-              "sortIndex": "2070478884771463168"
+              "sortIndex": "2079663773882253312"
             },
             {
               "content": {
@@ -208,7 +208,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -225,7 +225,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -291,16 +291,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2576,
+                                    "favourites_count": 2621,
                                     "follow_request_sent": false,
-                                    "followers_count": 686723,
-                                    "friends_count": 760,
+                                    "followers_count": 694648,
+                                    "friends_count": 762,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 2949,
-                                    "media_count": 827,
+                                    "listed_count": 2981,
+                                    "media_count": 829,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 686723,
+                                    "normal_followers_count": 694648,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "2019881223666233717"
@@ -308,7 +308,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/2244994945/1690213128",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 4288,
+                                    "statuses_count": 4307,
                                     "time_zone": "",
                                     "translator_type": "regular",
                                     "url": "https://t.co/NIwHVIVyrN",
@@ -406,7 +406,7 @@
                             "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
                             "unmention_data": {},
                             "views": {
-                              "count": "213087",
+                              "count": "213098",
                               "state": "EnabledWithCount"
                             }
                           }
@@ -424,7 +424,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -444,7 +444,7 @@
                                     "value": {
                                       "image_value": {
                                         "height": 144,
-                                        "url": "https://pbs.twimg.com/card_img/2069779400195715072/Y5UEiZp7?format=jpg&name=144x144_2",
+                                        "url": "https://pbs.twimg.com/card_img/2077451489757233152/t8PG5sxz?format=jpg&name=144x144_2",
                                         "width": 144
                                       },
                                       "type": "IMAGE"
@@ -469,7 +469,7 @@
                                     "value": {
                                       "image_value": {
                                         "height": 420,
-                                        "url": "https://pbs.twimg.com/card_img/2069779400195715072/Y5UEiZp7?format=jpg&name=420x420_2",
+                                        "url": "https://pbs.twimg.com/card_img/2077451489757233152/t8PG5sxz?format=jpg&name=420x420_2",
                                         "width": 420
                                       },
                                       "type": "IMAGE"
@@ -480,7 +480,7 @@
                                     "value": {
                                       "image_value": {
                                         "height": 630,
-                                        "url": "https://pbs.twimg.com/card_img/2069779400195715072/Y5UEiZp7?format=jpg&name=orig",
+                                        "url": "https://pbs.twimg.com/card_img/2077451489757233152/t8PG5sxz?format=jpg&name=orig",
                                         "width": 1200
                                       },
                                       "type": "IMAGE"
@@ -491,7 +491,7 @@
                                     "value": {
                                       "image_value": {
                                         "height": 100,
-                                        "url": "https://pbs.twimg.com/card_img/2069779400195715072/Y5UEiZp7?format=jpg&name=100x100_2",
+                                        "url": "https://pbs.twimg.com/card_img/2077451489757233152/t8PG5sxz?format=jpg&name=100x100_2",
                                         "width": 100
                                       },
                                       "type": "IMAGE"
@@ -502,7 +502,7 @@
                                     "value": {
                                       "image_value": {
                                         "height": 630,
-                                        "url": "https://pbs.twimg.com/card_img/2069779400195715072/Y5UEiZp7?format=png&name=2048x2048_2_exp",
+                                        "url": "https://pbs.twimg.com/card_img/2077451489757233152/t8PG5sxz?format=png&name=2048x2048_2_exp",
                                         "width": 1200
                                       },
                                       "type": "IMAGE"
@@ -653,16 +653,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2576,
+                                    "favourites_count": 2621,
                                     "follow_request_sent": false,
-                                    "followers_count": 686723,
-                                    "friends_count": 760,
+                                    "followers_count": 694648,
+                                    "friends_count": 762,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 2949,
-                                    "media_count": 827,
+                                    "listed_count": 2981,
+                                    "media_count": 829,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 686723,
+                                    "normal_followers_count": 694648,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "2019881223666233717"
@@ -670,7 +670,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/2244994945/1690213128",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 4288,
+                                    "statuses_count": 4307,
                                     "time_zone": "",
                                     "translator_type": "regular",
                                     "url": "https://t.co/NIwHVIVyrN",
@@ -758,7 +758,7 @@
                                   }
                                 ]
                               },
-                              "favorite_count": 136,
+                              "favorite_count": 135,
                               "favorited": false,
                               "full_text": "If you are a Twitter developer with a commercial use case, we recommend that you apply for our Enterprise tier.\nEnterprise Search and Account Activity API continue to be available to developers on that Enterprise tier. \n\nApply here: https://t.co/A2FQP2DWuy",
                               "id_str": "1649191522485817345",
@@ -782,7 +782,7 @@
                             "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
                             "unmention_data": {},
                             "views": {
-                              "count": "239477",
+                              "count": "239479",
                               "state": "EnabledWithCount"
                             }
                           }
@@ -800,7 +800,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -866,16 +866,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2576,
+                                    "favourites_count": 2621,
                                     "follow_request_sent": false,
-                                    "followers_count": 686723,
-                                    "friends_count": 760,
+                                    "followers_count": 694648,
+                                    "friends_count": 762,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 2949,
-                                    "media_count": 827,
+                                    "listed_count": 2981,
+                                    "media_count": 829,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 686723,
+                                    "normal_followers_count": 694648,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "2019881223666233717"
@@ -883,7 +883,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/2244994945/1690213128",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 4288,
+                                    "statuses_count": 4307,
                                     "time_zone": "",
                                     "translator_type": "regular",
                                     "url": "https://t.co/NIwHVIVyrN",
@@ -983,7 +983,7 @@
                               "possibly_sensitive": false,
                               "possibly_sensitive_editable": true,
                               "quote_count": 2,
-                              "reply_count": 36,
+                              "reply_count": 35,
                               "retweet_count": 39,
                               "retweeted": false,
                               "user_id_str": "2244994945"
@@ -995,7 +995,7 @@
                             "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
                             "unmention_data": {},
                             "views": {
-                              "count": "207019",
+                              "count": "207022",
                               "state": "EnabledWithCount"
                             }
                           }
@@ -1014,7 +1014,7 @@
                 }
               },
               "entryId": "conversationthread-1649191521323995138",
-              "sortIndex": "2070478884771463158"
+              "sortIndex": "2079663773882253302"
             },
             {
               "content": {
@@ -1026,7 +1026,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -1043,7 +1043,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -1108,16 +1108,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 35677,
+                                    "favourites_count": 36705,
                                     "follow_request_sent": false,
-                                    "followers_count": 18118,
-                                    "friends_count": 1916,
+                                    "followers_count": 18136,
+                                    "friends_count": 1917,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 455,
+                                    "listed_count": 454,
                                     "media_count": 1250,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 18118,
+                                    "normal_followers_count": 18136,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1603552334231097351"
@@ -1374,7 +1374,7 @@
                 }
               },
               "entryId": "conversationthread-1649263296434806785",
-              "sortIndex": "2070478884771463148"
+              "sortIndex": "2079663773882253292"
             },
             {
               "content": {
@@ -1386,7 +1386,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -1403,7 +1403,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -1459,16 +1459,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 1360,
+                                    "favourites_count": 1363,
                                     "follow_request_sent": false,
-                                    "followers_count": 2459,
-                                    "friends_count": 1594,
+                                    "followers_count": 2450,
+                                    "friends_count": 1595,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 60,
-                                    "media_count": 2039,
+                                    "listed_count": 59,
+                                    "media_count": 2043,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 2459,
+                                    "normal_followers_count": 2450,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1964464768506613836"
@@ -1476,7 +1476,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/266718403/1759700322",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 6646,
+                                    "statuses_count": 6659,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/IiYboXzlyn",
@@ -1612,7 +1612,7 @@
                 }
               },
               "entryId": "conversationthread-1649197403352727555",
-              "sortIndex": "2070478884771463138"
+              "sortIndex": "2079663773882253282"
             },
             {
               "content": {
@@ -1624,7 +1624,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -1641,7 +1641,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -1694,16 +1694,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 53150,
+                                    "favourites_count": 53468,
                                     "follow_request_sent": false,
-                                    "followers_count": 17015,
-                                    "friends_count": 2504,
+                                    "followers_count": 17052,
+                                    "friends_count": 2509,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 55,
-                                    "media_count": 25437,
+                                    "listed_count": 57,
+                                    "media_count": 25903,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 17015,
+                                    "normal_followers_count": 17052,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "2069239904731901985"
@@ -1711,7 +1711,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/1105351675/1679928702",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 201237,
+                                    "statuses_count": 203331,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/WS4InFWHxN",
@@ -1831,7 +1831,7 @@
                 }
               },
               "entryId": "conversationthread-1649255409897861120",
-              "sortIndex": "2070478884771463128"
+              "sortIndex": "2079663773882253272"
             },
             {
               "content": {
@@ -1843,7 +1843,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -1860,7 +1860,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -1952,16 +1952,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 3301,
+                                    "favourites_count": 3297,
                                     "follow_request_sent": false,
-                                    "followers_count": 1281,
-                                    "friends_count": 642,
+                                    "followers_count": 1280,
+                                    "friends_count": 639,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 14,
                                     "media_count": 1492,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 1281,
+                                    "normal_followers_count": 1280,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1823396710636237178"
@@ -1969,7 +1969,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/1457721/1712580970",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 8433,
+                                    "statuses_count": 8435,
                                     "time_zone": "",
                                     "translator_type": "regular",
                                     "url": "https://t.co/MHcm6nYtTk",
@@ -2035,7 +2035,7 @@
                                 126
                               ],
                               "entities": {},
-                              "favorite_count": 166,
+                              "favorite_count": 165,
                               "favorited": false,
                               "full_text": "@TwitterDev You're not deprecating them, you're removing them. Deprecation means the feature remains available but unsupported",
                               "id_str": "1649193341454524424",
@@ -2076,7 +2076,7 @@
                 }
               },
               "entryId": "conversationthread-1649193341454524424",
-              "sortIndex": "2070478884771463118"
+              "sortIndex": "2079663773882253262"
             },
             {
               "content": {
@@ -2088,7 +2088,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -2105,7 +2105,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -2158,16 +2158,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 238443,
+                                    "favourites_count": 240291,
                                     "follow_request_sent": false,
-                                    "followers_count": 3368,
-                                    "friends_count": 1469,
+                                    "followers_count": 3416,
+                                    "friends_count": 1475,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 43,
-                                    "media_count": 8702,
+                                    "media_count": 8755,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 3368,
+                                    "normal_followers_count": 3416,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "738816222226063361"
@@ -2175,7 +2175,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/50870038/1755578146",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 130705,
+                                    "statuses_count": 131325,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/XCG3YEGlQg",
@@ -2253,7 +2253,7 @@
                                 196
                               ],
                               "entities": {},
-                              "favorite_count": 79,
+                              "favorite_count": 78,
                               "favorited": false,
                               "full_text": "@TwitterDev The Twitter API program has experienced a rapid unscheduled disassembly.\n\nIt was fun using it and making Twitter better for others, but I'm not going to pay to make your site more fun.",
                               "id_str": "1649219645088624642",
@@ -2294,7 +2294,7 @@
                 }
               },
               "entryId": "conversationthread-1649219645088624642",
-              "sortIndex": "2070478884771463108"
+              "sortIndex": "2079663773882253252"
             },
             {
               "content": {
@@ -2306,7 +2306,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -2323,7 +2323,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -2377,19 +2377,19 @@
                                     "fast_followers_count": 0,
                                     "favourites_count": 164,
                                     "follow_request_sent": false,
-                                    "followers_count": 39,
+                                    "followers_count": 40,
                                     "friends_count": 100,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 0,
                                     "media_count": 14,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 39,
+                                    "normal_followers_count": 40,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/85375984/1627950813",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 216,
+                                    "statuses_count": 217,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -2494,7 +2494,7 @@
                 }
               },
               "entryId": "conversationthread-1649192213635817472",
-              "sortIndex": "2070478884771463098"
+              "sortIndex": "2079663773882253242"
             },
             {
               "content": {
@@ -2506,7 +2506,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -2523,7 +2523,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -2576,21 +2576,21 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2872,
+                                    "favourites_count": 2871,
                                     "follow_request_sent": false,
-                                    "followers_count": 2905,
+                                    "followers_count": 2901,
                                     "friends_count": 2162,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 252,
                                     "media_count": 4077,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 2905,
+                                    "normal_followers_count": 2901,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/19106644/1398330338",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 68411,
+                                    "statuses_count": 68409,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/LAByf09AGz",
@@ -2700,7 +2700,7 @@
                 }
               },
               "entryId": "conversationthread-1649195617145573378",
-              "sortIndex": "2070478884771463088"
+              "sortIndex": "2079663773882253232"
             },
             {
               "content": {
@@ -2712,7 +2712,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -2729,7 +2729,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -2782,16 +2782,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2434,
+                                    "favourites_count": 2433,
                                     "follow_request_sent": false,
-                                    "followers_count": 136,
+                                    "followers_count": 137,
                                     "friends_count": 111,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 2,
                                     "media_count": 265,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 136,
+                                    "normal_followers_count": 137,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1215493952763301890"
@@ -2799,7 +2799,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/16075959/1359265116",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 2625,
+                                    "statuses_count": 2624,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/2R6o8d7vfB",
@@ -2873,7 +2873,7 @@
                               "lang": "en",
                               "quote_count": 0,
                               "reply_count": 2,
-                              "retweet_count": 2,
+                              "retweet_count": 1,
                               "retweeted": false,
                               "user_id_str": "16075959"
                             },
@@ -2903,7 +2903,7 @@
                 }
               },
               "entryId": "conversationthread-1649195658585206784",
-              "sortIndex": "2070478884771463078"
+              "sortIndex": "2079663773882253222"
             },
             {
               "content": {
@@ -2915,7 +2915,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -2932,7 +2932,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -2972,10 +2972,10 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 43662,
+                                    "favourites_count": 43660,
                                     "follow_request_sent": false,
                                     "followers_count": 2097,
-                                    "friends_count": 1678,
+                                    "friends_count": 1679,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 7,
@@ -3125,7 +3125,7 @@
                 }
               },
               "entryId": "conversationthread-1649593041966219264",
-              "sortIndex": "2070478884771463068"
+              "sortIndex": "2079663773882253212"
             },
             {
               "content": {
@@ -3137,7 +3137,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -3154,7 +3154,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -3194,16 +3194,16 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 26638,
+                                    "favourites_count": 26972,
                                     "follow_request_sent": false,
-                                    "followers_count": 4466,
-                                    "friends_count": 3986,
+                                    "followers_count": 4481,
+                                    "friends_count": 3994,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 27,
-                                    "media_count": 7377,
+                                    "media_count": 7592,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 4466,
+                                    "normal_followers_count": 4481,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1510004885722476546"
@@ -3211,7 +3211,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/67291463/1627848214",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 37827,
+                                    "statuses_count": 38189,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -3315,7 +3315,7 @@
                 }
               },
               "entryId": "conversationthread-1649294965783109640",
-              "sortIndex": "2070478884771463058"
+              "sortIndex": "2079663773882253202"
             },
             {
               "content": {
@@ -3327,7 +3327,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -3344,7 +3344,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -3384,16 +3384,16 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 26638,
+                                    "favourites_count": 26972,
                                     "follow_request_sent": false,
-                                    "followers_count": 4466,
-                                    "friends_count": 3986,
+                                    "followers_count": 4481,
+                                    "friends_count": 3994,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 27,
-                                    "media_count": 7377,
+                                    "media_count": 7592,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 4466,
+                                    "normal_followers_count": 4481,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1510004885722476546"
@@ -3401,7 +3401,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/67291463/1627848214",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 37827,
+                                    "statuses_count": 38189,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -3505,7 +3505,7 @@
                 }
               },
               "entryId": "conversationthread-1649294040985157633",
-              "sortIndex": "2070478884771463048"
+              "sortIndex": "2079663773882253192"
             },
             {
               "content": {
@@ -3517,7 +3517,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -3534,7 +3534,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -3574,16 +3574,16 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 152284,
+                                    "favourites_count": 152152,
                                     "follow_request_sent": false,
-                                    "followers_count": 1483,
-                                    "friends_count": 2507,
+                                    "followers_count": 1481,
+                                    "friends_count": 2504,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 40,
                                     "media_count": 6114,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 1483,
+                                    "normal_followers_count": 1481,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1649796566968836096"
@@ -3591,7 +3591,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/117537876/1637293301",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 72902,
+                                    "statuses_count": 72883,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -3696,7 +3696,7 @@
                 }
               },
               "entryId": "conversationthread-1649372245196668928",
-              "sortIndex": "2070478884771463038"
+              "sortIndex": "2079663773882253182"
             },
             {
               "content": {
@@ -3708,7 +3708,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -3725,7 +3725,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -3765,16 +3765,16 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 26638,
+                                    "favourites_count": 26972,
                                     "follow_request_sent": false,
-                                    "followers_count": 4466,
-                                    "friends_count": 3986,
+                                    "followers_count": 4481,
+                                    "friends_count": 3994,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 27,
-                                    "media_count": 7377,
+                                    "media_count": 7592,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 4466,
+                                    "normal_followers_count": 4481,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1510004885722476546"
@@ -3782,7 +3782,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/67291463/1627848214",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 37827,
+                                    "statuses_count": 38189,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -3886,7 +3886,7 @@
                 }
               },
               "entryId": "conversationthread-1649301201203200003",
-              "sortIndex": "2070478884771463028"
+              "sortIndex": "2079663773882253172"
             },
             {
               "content": {
@@ -3898,7 +3898,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -3915,7 +3915,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -3955,7 +3955,7 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 559,
+                                    "favourites_count": 564,
                                     "follow_request_sent": false,
                                     "followers_count": 28,
                                     "friends_count": 140,
@@ -3969,7 +3969,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 1776,
+                                    "statuses_count": 1784,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -4074,7 +4074,7 @@
                 }
               },
               "entryId": "conversationthread-1649328248566820870",
-              "sortIndex": "2070478884771463018"
+              "sortIndex": "2079663773882253162"
             },
             {
               "content": {
@@ -4086,7 +4086,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -4103,7 +4103,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -4156,16 +4156,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 522,
+                                    "favourites_count": 523,
                                     "follow_request_sent": false,
-                                    "followers_count": 113,
+                                    "followers_count": 114,
                                     "friends_count": 325,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 6,
                                     "media_count": 21,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 113,
+                                    "normal_followers_count": 114,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "",
@@ -4286,7 +4286,7 @@
                 }
               },
               "entryId": "conversationthread-1650588617964658695",
-              "sortIndex": "2070478884771463008"
+              "sortIndex": "2079663773882253152"
             },
             {
               "content": {
@@ -4298,7 +4298,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -4315,7 +4315,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -4474,7 +4474,7 @@
                 }
               },
               "entryId": "conversationthread-1649327387509760000",
-              "sortIndex": "2070478884771462998"
+              "sortIndex": "2079663773882253142"
             },
             {
               "content": {
@@ -4486,7 +4486,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -4503,7 +4503,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -4558,14 +4558,14 @@
                                     "fast_followers_count": 0,
                                     "favourites_count": 14,
                                     "follow_request_sent": false,
-                                    "followers_count": 193,
+                                    "followers_count": 192,
                                     "friends_count": 1,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 0,
                                     "media_count": 35,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 193,
+                                    "normal_followers_count": 192,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1413209639324377095"
@@ -4683,7 +4683,7 @@
                 }
               },
               "entryId": "conversationthread-1650582904844480512",
-              "sortIndex": "2070478884771462988"
+              "sortIndex": "2079663773882253132"
             },
             {
               "content": {
@@ -4695,7 +4695,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -4712,7 +4712,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -4767,14 +4767,14 @@
                                     "fast_followers_count": 0,
                                     "favourites_count": 2012,
                                     "follow_request_sent": false,
-                                    "followers_count": 682,
-                                    "friends_count": 120,
+                                    "followers_count": 686,
+                                    "friends_count": 118,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 7,
-                                    "media_count": 2216,
+                                    "media_count": 2217,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 682,
+                                    "normal_followers_count": 686,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1917939003342418014"
@@ -4782,7 +4782,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/720742178365009922/1477439101",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 11077,
+                                    "statuses_count": 11096,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/oodEPZ9SOR",
@@ -4889,7 +4889,7 @@
                 }
               },
               "entryId": "conversationthread-1649309063690297346",
-              "sortIndex": "2070478884771462978"
+              "sortIndex": "2079663773882253122"
             },
             {
               "content": {
@@ -4901,7 +4901,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -4918,7 +4918,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -4971,16 +4971,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2155,
+                                    "favourites_count": 2150,
                                     "follow_request_sent": false,
-                                    "followers_count": 273,
+                                    "followers_count": 272,
                                     "friends_count": 873,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 2,
                                     "media_count": 54,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 273,
+                                    "normal_followers_count": 272,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1778081296721334613"
@@ -5093,7 +5093,7 @@
                 }
               },
               "entryId": "conversationthread-1649192382066225157",
-              "sortIndex": "2070478884771462968"
+              "sortIndex": "2079663773882253112"
             },
             {
               "content": {
@@ -5105,7 +5105,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -5122,7 +5122,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -5175,24 +5175,24 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 24521,
+                                    "favourites_count": 24535,
                                     "follow_request_sent": false,
-                                    "followers_count": 1834,
-                                    "friends_count": 965,
+                                    "followers_count": 1830,
+                                    "friends_count": 969,
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 16,
-                                    "media_count": 3181,
+                                    "media_count": 3191,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 1834,
+                                    "normal_followers_count": 1830,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
-                                      "2065818023206760755"
+                                      "2077545537474040013"
                                     ],
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/1670408462/1751402574",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 18908,
+                                    "statuses_count": 18998,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/lVDwql6EpA",
@@ -5320,7 +5320,7 @@
                 }
               },
               "entryId": "conversationthread-1649369624096518145",
-              "sortIndex": "2070478884771462958"
+              "sortIndex": "2079663773882253102"
             },
             {
               "content": {
@@ -5332,7 +5332,340 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
+                    }
+                  }
+                },
+                "displayType": "VerticalConversation",
+                "entryType": "TimelineTimelineModule",
+                "items": [
+                  {
+                    "entryId": "conversationthread-1649371794648752128-tweet-1649371794648752128",
+                    "item": {
+                      "clientEventInfo": {
+                        "component": "tweet",
+                        "details": {
+                          "conversationDetails": {
+                            "conversationSection": "HighQuality"
+                          },
+                          "timelinesDetails": {
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
+                          }
+                        },
+                        "element": "tweet"
+                      },
+                      "itemContent": {
+                        "__typename": "TimelineTweet",
+                        "itemType": "TimelineTweet",
+                        "tweetDisplayType": "Tweet",
+                        "tweet_results": {
+                          "result": {
+                            "__typename": "Tweet",
+                            "core": {
+                              "user_results": {
+                                "result": {
+                                  "__typename": "User",
+                                  "affiliates_highlighted_label": {},
+                                  "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1649393818725122049/VxPc3GXp_normal.jpg"
+                                  },
+                                  "core": {
+                                    "created_at": "Sun May 19 13:53:03 +0000 2013",
+                                    "name": "JuniorJr.",
+                                    "screen_name": "former_jr"
+                                  },
+                                  "dm_permissions": {
+                                    "can_dm": false
+                                  },
+                                  "follow_request_sent": false,
+                                  "has_graduated_access": true,
+                                  "id": "VXNlcjoxNDQxMjI2NjUy",
+                                  "is_blue_verified": false,
+                                  "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "Beisb\u00f3l & DFS & #Mariners",
+                                    "entities": {
+                                      "description": {},
+                                      "url": {
+                                        "urls": [
+                                          {
+                                            "display_url": "goms.com",
+                                            "expanded_url": "https://goms.com",
+                                            "indices": [
+                                              0,
+                                              23
+                                            ],
+                                            "url": "https://t.co/uFfTM4RgdZ"
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 29177,
+                                    "follow_request_sent": false,
+                                    "followers_count": 231,
+                                    "friends_count": 1491,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 8,
+                                    "media_count": 1042,
+                                    "needs_phone_verification": false,
+                                    "normal_followers_count": 231,
+                                    "notifications": false,
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1441226652/1666493400",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 13976,
+                                    "time_zone": "",
+                                    "translator_type": "none",
+                                    "url": "https://t.co/uFfTM4RgdZ",
+                                    "utc_offset": 0,
+                                    "want_retweets": false,
+                                    "withheld_description": "",
+                                    "withheld_scope": ""
+                                  },
+                                  "location": {
+                                    "location": "In Play, Run(s)"
+                                  },
+                                  "media_permissions": {
+                                    "can_media_tag": false
+                                  },
+                                  "parody_commentary_fan_label": "None",
+                                  "privacy": {
+                                    "protected": false
+                                  },
+                                  "profile_bio": {
+                                    "description": "Beisb\u00f3l & DFS & #Mariners"
+                                  },
+                                  "profile_image_shape": "Circle",
+                                  "relationship_perspectives": {
+                                    "blocked_by": false,
+                                    "blocking": false,
+                                    "followed_by": false,
+                                    "following": false,
+                                    "live_following": false,
+                                    "muting": false
+                                  },
+                                  "rest_id": "1441226652",
+                                  "super_follow_eligible": false,
+                                  "super_followed_by": false,
+                                  "super_following": false,
+                                  "tipjar_settings": {},
+                                  "verification": {
+                                    "verified": false
+                                  }
+                                }
+                              }
+                            },
+                            "edit_control": {
+                              "edit_tweet_ids": [
+                                "1649371794648752128"
+                              ],
+                              "editable_until_msecs": "1682077654000",
+                              "edits_remaining": "5",
+                              "is_edit_eligible": false
+                            },
+                            "grok_analysis_button": true,
+                            "has_birdwatch_notes": false,
+                            "is_translatable": false,
+                            "legacy": {
+                              "bookmark_count": 0,
+                              "bookmarked": false,
+                              "conversation_id_str": "1649191520250245121",
+                              "created_at": "Fri Apr 21 11:17:34 +0000 2023",
+                              "display_text_range": [
+                                12,
+                                42
+                              ],
+                              "entities": {
+                                "media": [
+                                  {
+                                    "display_url": "pic.x.com/08CmQ9ZHT0",
+                                    "expanded_url": "https://x.com/former_jr/status/1649371794648752128/photo/1",
+                                    "ext_alt_text": "collapse GIF",
+                                    "ext_media_availability": {
+                                      "status": "Available"
+                                    },
+                                    "id_str": "1649371789363929095",
+                                    "indices": [
+                                      43,
+                                      66
+                                    ],
+                                    "media_key": "16_1649371789363929095",
+                                    "media_results": {
+                                      "result": {
+                                        "media_key": "16_1649371789363929095"
+                                      }
+                                    },
+                                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/FuO-51eWYAcAH5u.jpg",
+                                    "original_info": {
+                                      "focus_rects": [],
+                                      "height": 264,
+                                      "width": 250
+                                    },
+                                    "sizes": {
+                                      "large": {
+                                        "h": 264,
+                                        "resize": "fit",
+                                        "w": 250
+                                      },
+                                      "medium": {
+                                        "h": 264,
+                                        "resize": "fit",
+                                        "w": 250
+                                      },
+                                      "small": {
+                                        "h": 264,
+                                        "resize": "fit",
+                                        "w": 250
+                                      },
+                                      "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                      }
+                                    },
+                                    "type": "animated_gif",
+                                    "url": "https://t.co/08CmQ9ZHT0",
+                                    "video_info": {
+                                      "aspect_ratio": [
+                                        125,
+                                        132
+                                      ],
+                                      "variants": [
+                                        {
+                                          "bitrate": 0,
+                                          "content_type": "video/mp4",
+                                          "url": "https://video.twimg.com/tweet_video/FuO-51eWYAcAH5u.mp4"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              },
+                              "extended_entities": {
+                                "media": [
+                                  {
+                                    "display_url": "pic.x.com/08CmQ9ZHT0",
+                                    "expanded_url": "https://x.com/former_jr/status/1649371794648752128/photo/1",
+                                    "ext_alt_text": "collapse GIF",
+                                    "ext_media_availability": {
+                                      "status": "Available"
+                                    },
+                                    "id_str": "1649371789363929095",
+                                    "indices": [
+                                      43,
+                                      66
+                                    ],
+                                    "media_key": "16_1649371789363929095",
+                                    "media_results": {
+                                      "result": {
+                                        "media_key": "16_1649371789363929095"
+                                      }
+                                    },
+                                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/FuO-51eWYAcAH5u.jpg",
+                                    "original_info": {
+                                      "focus_rects": [],
+                                      "height": 264,
+                                      "width": 250
+                                    },
+                                    "sizes": {
+                                      "large": {
+                                        "h": 264,
+                                        "resize": "fit",
+                                        "w": 250
+                                      },
+                                      "medium": {
+                                        "h": 264,
+                                        "resize": "fit",
+                                        "w": 250
+                                      },
+                                      "small": {
+                                        "h": 264,
+                                        "resize": "fit",
+                                        "w": 250
+                                      },
+                                      "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                      }
+                                    },
+                                    "type": "animated_gif",
+                                    "url": "https://t.co/08CmQ9ZHT0",
+                                    "video_info": {
+                                      "aspect_ratio": [
+                                        125,
+                                        132
+                                      ],
+                                      "variants": [
+                                        {
+                                          "bitrate": 0,
+                                          "content_type": "video/mp4",
+                                          "url": "https://video.twimg.com/tweet_video/FuO-51eWYAcAH5u.mp4"
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              },
+                              "favorite_count": 4,
+                              "favorited": false,
+                              "full_text": "@TwitterDev you are disemboweling yourself https://t.co/08CmQ9ZHT0",
+                              "id_str": "1649371794648752128",
+                              "in_reply_to_screen_name": "XDevelopers",
+                              "in_reply_to_status_id_str": "1649191520250245121",
+                              "in_reply_to_user_id_str": "2244994945",
+                              "is_quote_status": false,
+                              "lang": "en",
+                              "possibly_sensitive": false,
+                              "possibly_sensitive_editable": true,
+                              "quote_count": 0,
+                              "reply_count": 1,
+                              "retweet_count": 0,
+                              "retweeted": false,
+                              "user_id_str": "1441226652"
+                            },
+                            "quick_promote_eligibility": {
+                              "eligibility": "IneligibleTweet"
+                            },
+                            "rest_id": "1649371794648752128",
+                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                            "unmention_data": {},
+                            "views": {
+                              "count": "914",
+                              "state": "EnabledWithCount"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "metadata": {
+                  "conversationMetadata": {
+                    "allTweetIds": [
+                      "1649371794648752128"
+                    ],
+                    "enableDeduplication": true
+                  }
+                }
+              },
+              "entryId": "conversationthread-1649371794648752128",
+              "sortIndex": "2079663773882253092"
+            },
+            {
+              "content": {
+                "__typename": "TimelineTimelineModule",
+                "clientEventInfo": {
+                  "component": "tweet",
+                  "details": {
+                    "conversationDetails": {
+                      "conversationSection": "HighQuality"
+                    },
+                    "timelinesDetails": {
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -5349,7 +5682,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -5389,21 +5722,21 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 36167,
+                                    "favourites_count": 36156,
                                     "follow_request_sent": false,
-                                    "followers_count": 54,
+                                    "followers_count": 58,
                                     "friends_count": 1377,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 3,
-                                    "media_count": 940,
+                                    "media_count": 954,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 54,
+                                    "normal_followers_count": 58,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/1228772030994145283/1649873706",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 7949,
+                                    "statuses_count": 7964,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -5508,7 +5841,7 @@
                 }
               },
               "entryId": "conversationthread-1651366329444712448",
-              "sortIndex": "2070478884771462948"
+              "sortIndex": "2079663773882253082"
             },
             {
               "content": {
@@ -5520,7 +5853,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -5537,7 +5870,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -5590,21 +5923,21 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 219050,
+                                    "favourites_count": 218619,
                                     "follow_request_sent": false,
-                                    "followers_count": 11981,
-                                    "friends_count": 5818,
+                                    "followers_count": 11959,
+                                    "friends_count": 5826,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 7,
-                                    "media_count": 255,
+                                    "media_count": 256,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 11981,
+                                    "normal_followers_count": 11959,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/3262810604/1740213091",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 9213,
+                                    "statuses_count": 9215,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/bBi683Wsi2",
@@ -5723,7 +6056,7 @@
                 }
               },
               "entryId": "conversationthread-1649225698102636544",
-              "sortIndex": "2070478884771462938"
+              "sortIndex": "2079663773882253072"
             },
             {
               "content": {
@@ -5735,7 +6068,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -5752,7 +6085,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -5792,21 +6125,21 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 119477,
+                                    "favourites_count": 119722,
                                     "follow_request_sent": false,
-                                    "followers_count": 21388,
-                                    "friends_count": 7045,
+                                    "followers_count": 21467,
+                                    "friends_count": 6991,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 67,
-                                    "media_count": 2968,
+                                    "listed_count": 68,
+                                    "media_count": 3024,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 21388,
+                                    "normal_followers_count": 21467,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/860871247/1779187605",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 192510,
+                                    "statuses_count": 193464,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -5911,7 +6244,7 @@
                 }
               },
               "entryId": "conversationthread-1649205557440512001",
-              "sortIndex": "2070478884771462928"
+              "sortIndex": "2079663773882253062"
             },
             {
               "content": {
@@ -5923,7 +6256,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -5940,7 +6273,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -5958,11 +6291,11 @@
                                   "__typename": "User",
                                   "affiliates_highlighted_label": {},
                                   "avatar": {
-                                    "image_url": "https://pbs.twimg.com/profile_images/2033006691244191744/iTjXbGXe_normal.jpg"
+                                    "image_url": "https://pbs.twimg.com/profile_images/2076090370060951552/CvxB72JO_normal.jpg"
                                   },
                                   "core": {
                                     "created_at": "Wed Dec 16 03:29:58 +0000 2020",
-                                    "name": "Ment\u2742r \ud83c\uddf9\ud83c\uddf7 \ud83c\udde6\ud83c\uddf1",
+                                    "name": "Mentor \ud83c\uddf9\ud83c\uddf7 \ud83c\udde6\ud83c\uddf1",
                                     "screen_name": "Mentor_0x39"
                                   },
                                   "dm_permissions": {
@@ -5975,26 +6308,29 @@
                                   "legacy": {
                                     "default_profile": true,
                                     "default_profile_image": false,
-                                    "description": "Degenesis..\n\nBorn of the Illyrian Mountains \ud83c\udfd4\ufe0f",
+                                    "description": "Social Tracking \u2022 Community Intelligence \u2022 Market Data | Since 2020 | Just a dreamer",
                                     "entities": {
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 670,
+                                    "favourites_count": 680,
                                     "follow_request_sent": false,
-                                    "followers_count": 422,
-                                    "friends_count": 2444,
+                                    "followers_count": 415,
+                                    "friends_count": 2448,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 1,
-                                    "media_count": 80,
+                                    "media_count": 79,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 422,
+                                    "normal_followers_count": 415,
                                     "notifications": false,
+                                    "pinned_tweet_ids_str": [
+                                      "1975555141114994737"
+                                    ],
                                     "possibly_sensitive": false,
-                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1339050010558738434/1773541666",
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1339050010558738434/1783813492",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 327,
+                                    "statuses_count": 316,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -6019,7 +6355,7 @@
                                     "rest_id": "1576388819946971137"
                                   },
                                   "profile_bio": {
-                                    "description": "Degenesis..\n\nBorn of the Illyrian Mountains \ud83c\udfd4\ufe0f"
+                                    "description": "Social Tracking \u2022 Community Intelligence \u2022 Market Data | Since 2020 | Just a dreamer"
                                   },
                                   "profile_description_language": "en",
                                   "profile_image_shape": "Circle",
@@ -6254,7 +6590,7 @@
                 }
               },
               "entryId": "conversationthread-1649204618902097920",
-              "sortIndex": "2070478884771462918"
+              "sortIndex": "2079663773882253052"
             },
             {
               "content": {
@@ -6266,7 +6602,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -6283,7 +6619,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -6343,7 +6679,7 @@
                                     "has_custom_timelines": false,
                                     "is_translator": false,
                                     "listed_count": 0,
-                                    "media_count": 524,
+                                    "media_count": 536,
                                     "needs_phone_verification": false,
                                     "normal_followers_count": 49,
                                     "notifications": false,
@@ -6353,7 +6689,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/968257265336836097/1519714166",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 27406,
+                                    "statuses_count": 27424,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/WSNOUjhxjq",
@@ -6458,7 +6794,7 @@
                 }
               },
               "entryId": "conversationthread-1673106721437364225",
-              "sortIndex": "2070478884771462908"
+              "sortIndex": "2079663773882253042"
             },
             {
               "content": {
@@ -6470,7 +6806,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -6487,7 +6823,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -6522,7 +6858,7 @@
                                   "legacy": {
                                     "default_profile": true,
                                     "default_profile_image": false,
-                                    "description": "mcsr brainrot \ud83e\udd40",
+                                    "description": "imagining a burger \ud83c\udf54\ud83d\ude0d",
                                     "entities": {
                                       "description": {},
                                       "url": {
@@ -6540,21 +6876,21 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 52257,
+                                    "favourites_count": 53164,
                                     "follow_request_sent": false,
-                                    "followers_count": 227,
-                                    "friends_count": 713,
+                                    "followers_count": 224,
+                                    "friends_count": 720,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 3,
-                                    "media_count": 668,
+                                    "media_count": 669,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 227,
+                                    "normal_followers_count": 224,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/1234244560810844160/1710290224",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 6355,
+                                    "statuses_count": 6388,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/Z5jgRlMRHV",
@@ -6574,8 +6910,9 @@
                                     "protected": false
                                   },
                                   "profile_bio": {
-                                    "description": "mcsr brainrot \ud83e\udd40"
+                                    "description": "imagining a burger \ud83c\udf54\ud83d\ude0d"
                                   },
+                                  "profile_description_language": "en",
                                   "profile_image_shape": "Circle",
                                   "relationship_perspectives": {
                                     "blocked_by": false,
@@ -6658,7 +6995,7 @@
                 }
               },
               "entryId": "conversationthread-1649393585656045569",
-              "sortIndex": "2070478884771462898"
+              "sortIndex": "2079663773882253032"
             },
             {
               "content": {
@@ -6670,7 +7007,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -6687,7 +7024,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -6730,16 +7067,16 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 26638,
+                                    "favourites_count": 26972,
                                     "follow_request_sent": false,
-                                    "followers_count": 4466,
-                                    "friends_count": 3986,
+                                    "followers_count": 4481,
+                                    "friends_count": 3994,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 27,
-                                    "media_count": 7377,
+                                    "media_count": 7592,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 4466,
+                                    "normal_followers_count": 4481,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1510004885722476546"
@@ -6747,7 +7084,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/67291463/1627848214",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 37827,
+                                    "statuses_count": 38189,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -6865,7 +7202,7 @@
                 }
               },
               "entryId": "conversationthread-1649295512091197444",
-              "sortIndex": "2070478884771462888"
+              "sortIndex": "2079663773882253022"
             },
             {
               "content": {
@@ -6877,7 +7214,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -6894,7 +7231,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -6947,16 +7284,16 @@
                                       }
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 9859,
+                                    "favourites_count": 9872,
                                     "follow_request_sent": false,
-                                    "followers_count": 172,
+                                    "followers_count": 174,
                                     "friends_count": 651,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 3,
                                     "media_count": 403,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 172,
+                                    "normal_followers_count": 174,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "357293026898485248"
@@ -6964,7 +7301,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/343962979/1483287140",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 6581,
+                                    "statuses_count": 6585,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "https://t.co/iRFWtqnGXM",
@@ -7069,7 +7406,7 @@
                 }
               },
               "entryId": "conversationthread-1649421661358243843",
-              "sortIndex": "2070478884771462878"
+              "sortIndex": "2079663773882253012"
             },
             {
               "content": {
@@ -7081,206 +7418,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
-                    }
-                  }
-                },
-                "displayType": "VerticalConversation",
-                "entryType": "TimelineTimelineModule",
-                "items": [
-                  {
-                    "entryId": "conversationthread-1651968114295463937-tweet-1651968114295463937",
-                    "item": {
-                      "clientEventInfo": {
-                        "component": "tweet",
-                        "details": {
-                          "conversationDetails": {
-                            "conversationSection": "HighQuality"
-                          },
-                          "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
-                          }
-                        },
-                        "element": "tweet"
-                      },
-                      "itemContent": {
-                        "__typename": "TimelineTweet",
-                        "itemType": "TimelineTweet",
-                        "tweetDisplayType": "Tweet",
-                        "tweet_results": {
-                          "result": {
-                            "__typename": "Tweet",
-                            "core": {
-                              "user_results": {
-                                "result": {
-                                  "__typename": "User",
-                                  "affiliates_highlighted_label": {},
-                                  "avatar": {
-                                    "image_url": "https://pbs.twimg.com/profile_images/1793665247674613760/ALblM85P_normal.jpg"
-                                  },
-                                  "core": {
-                                    "created_at": "Mon Feb 08 05:40:20 +0000 2016",
-                                    "name": "ThatsMe",
-                                    "screen_name": "Allinmylove3162"
-                                  },
-                                  "dm_permissions": {
-                                    "can_dm": false
-                                  },
-                                  "follow_request_sent": false,
-                                  "has_graduated_access": true,
-                                  "id": "VXNlcjo0ODg2OTgzMzY2",
-                                  "is_blue_verified": false,
-                                  "legacy": {
-                                    "default_profile": true,
-                                    "default_profile_image": false,
-                                    "description": "\u5f53\u4e16\u4e8b\u518d\u65e0\u5b8c\u7f8e \u53ef\u613f\u5728\u5c81\u6708\u5982\u6b4c\u4e2d\u627e\u4f60",
-                                    "entities": {
-                                      "description": {}
-                                    },
-                                    "fast_followers_count": 0,
-                                    "favourites_count": 1512,
-                                    "follow_request_sent": false,
-                                    "followers_count": 34,
-                                    "friends_count": 500,
-                                    "has_custom_timelines": true,
-                                    "is_translator": false,
-                                    "listed_count": 3,
-                                    "media_count": 3,
-                                    "needs_phone_verification": false,
-                                    "normal_followers_count": 34,
-                                    "notifications": false,
-                                    "possibly_sensitive": false,
-                                    "profile_banner_url": "",
-                                    "profile_interstitial_type": "",
-                                    "statuses_count": 75,
-                                    "time_zone": "",
-                                    "translator_type": "none",
-                                    "url": "",
-                                    "utc_offset": 0,
-                                    "want_retweets": false,
-                                    "withheld_description": "",
-                                    "withheld_scope": ""
-                                  },
-                                  "location": {
-                                    "location": "Yuen Long District, Hong Kong"
-                                  },
-                                  "media_permissions": {
-                                    "can_media_tag": true
-                                  },
-                                  "parody_commentary_fan_label": "None",
-                                  "privacy": {
-                                    "protected": false
-                                  },
-                                  "professional": {
-                                    "category": [
-                                      {
-                                        "icon_name": "IconBriefcaseStroke",
-                                        "id": 192,
-                                        "name": "Financial Services"
-                                      }
-                                    ],
-                                    "professional_type": "Business",
-                                    "rest_id": "1653035799338942465"
-                                  },
-                                  "profile_bio": {
-                                    "description": "\u5f53\u4e16\u4e8b\u518d\u65e0\u5b8c\u7f8e \u53ef\u613f\u5728\u5c81\u6708\u5982\u6b4c\u4e2d\u627e\u4f60"
-                                  },
-                                  "profile_description_language": "zh",
-                                  "profile_image_shape": "Circle",
-                                  "relationship_perspectives": {
-                                    "blocked_by": false,
-                                    "blocking": false,
-                                    "followed_by": false,
-                                    "following": false,
-                                    "live_following": false,
-                                    "muting": false
-                                  },
-                                  "rest_id": "4886983366",
-                                  "super_follow_eligible": false,
-                                  "super_followed_by": false,
-                                  "super_following": false,
-                                  "tipjar_settings": {},
-                                  "verification": {
-                                    "verified": false
-                                  }
-                                }
-                              }
-                            },
-                            "edit_control": {
-                              "edit_tweet_ids": [
-                                "1651968114295463937"
-                              ],
-                              "editable_until_msecs": "1682696665000",
-                              "edits_remaining": "5",
-                              "is_edit_eligible": false
-                            },
-                            "grok_analysis_button": true,
-                            "has_birdwatch_notes": false,
-                            "is_translatable": false,
-                            "legacy": {
-                              "bookmark_count": 0,
-                              "bookmarked": false,
-                              "conversation_id_str": "1649191520250245121",
-                              "created_at": "Fri Apr 28 15:14:25 +0000 2023",
-                              "display_text_range": [
-                                12,
-                                136
-                              ],
-                              "entities": {},
-                              "favorite_count": 2,
-                              "favorited": false,
-                              "full_text": "@TwitterDev such a stupid decision for \uff0442000 per month, you shouldn't own the tweets, they are created by twitter users, not elon musk.",
-                              "id_str": "1651968114295463937",
-                              "in_reply_to_screen_name": "XDevelopers",
-                              "in_reply_to_status_id_str": "1649191520250245121",
-                              "in_reply_to_user_id_str": "2244994945",
-                              "is_quote_status": false,
-                              "lang": "en",
-                              "quote_count": 0,
-                              "reply_count": 0,
-                              "retweet_count": 0,
-                              "retweeted": false,
-                              "user_id_str": "4886983366"
-                            },
-                            "quick_promote_eligibility": {
-                              "eligibility": "IneligibleTweet"
-                            },
-                            "rest_id": "1651968114295463937",
-                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-                            "unmention_data": {},
-                            "views": {
-                              "count": "132",
-                              "state": "EnabledWithCount"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                ],
-                "metadata": {
-                  "conversationMetadata": {
-                    "allTweetIds": [
-                      "1651968114295463937"
-                    ],
-                    "enableDeduplication": true
-                  }
-                }
-              },
-              "entryId": "conversationthread-1651968114295463937",
-              "sortIndex": "2070478884771462868"
-            },
-            {
-              "content": {
-                "__typename": "TimelineTimelineModule",
-                "clientEventInfo": {
-                  "component": "tweet",
-                  "details": {
-                    "conversationDetails": {
-                      "conversationSection": "HighQuality"
-                    },
-                    "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -7297,7 +7435,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -7337,7 +7475,7 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 2258,
+                                    "favourites_count": 2256,
                                     "follow_request_sent": false,
                                     "followers_count": 6,
                                     "friends_count": 59,
@@ -7459,7 +7597,7 @@
                 }
               },
               "entryId": "conversationthread-1655921906971996162",
-              "sortIndex": "2070478884771462858"
+              "sortIndex": "2079663773882253002"
             },
             {
               "content": {
@@ -7471,7 +7609,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -7479,7 +7617,7 @@
                 "entryType": "TimelineTimelineModule",
                 "items": [
                   {
-                    "entryId": "conversationthread-1672236226550571009-tweet-1672236226550571009",
+                    "entryId": "conversationthread-1651968114295463937-tweet-1651968114295463937",
                     "item": {
                       "clientEventInfo": {
                         "component": "tweet",
@@ -7488,7 +7626,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -7506,43 +7644,43 @@
                                   "__typename": "User",
                                   "affiliates_highlighted_label": {},
                                   "avatar": {
-                                    "image_url": "https://pbs.twimg.com/profile_images/1562092732574797827/GoXQdD1q_normal.jpg"
+                                    "image_url": "https://pbs.twimg.com/profile_images/1793665247674613760/ALblM85P_normal.jpg"
                                   },
                                   "core": {
-                                    "created_at": "Tue Aug 23 15:01:44 +0000 2022",
-                                    "name": "Abhinav Nair",
-                                    "screen_name": "crayon_x_"
+                                    "created_at": "Mon Feb 08 05:40:20 +0000 2016",
+                                    "name": "ThatsMe",
+                                    "screen_name": "Allinmylove3162"
                                   },
                                   "dm_permissions": {
                                     "can_dm": false
                                   },
                                   "follow_request_sent": false,
                                   "has_graduated_access": true,
-                                  "id": "VXNlcjoxNTYyMDkyNjQ3MDY1NDc3MTIw",
+                                  "id": "VXNlcjo0ODg2OTgzMzY2",
                                   "is_blue_verified": false,
                                   "legacy": {
                                     "default_profile": true,
                                     "default_profile_image": false,
-                                    "description": "",
+                                    "description": "\u5f53\u4e16\u4e8b\u518d\u65e0\u5b8c\u7f8e \u53ef\u613f\u5728\u5c81\u6708\u5982\u6b4c\u4e2d\u627e\u4f60",
                                     "entities": {
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 0,
+                                    "favourites_count": 1554,
                                     "follow_request_sent": false,
-                                    "followers_count": 1,
-                                    "friends_count": 1,
-                                    "has_custom_timelines": false,
+                                    "followers_count": 33,
+                                    "friends_count": 502,
+                                    "has_custom_timelines": true,
                                     "is_translator": false,
-                                    "listed_count": 0,
-                                    "media_count": 0,
+                                    "listed_count": 3,
+                                    "media_count": 3,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 1,
+                                    "normal_followers_count": 33,
                                     "notifications": false,
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 6,
+                                    "statuses_count": 75,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -7552,7 +7690,7 @@
                                     "withheld_scope": ""
                                   },
                                   "location": {
-                                    "location": ""
+                                    "location": "Yuen Long District, Hong Kong"
                                   },
                                   "media_permissions": {
                                     "can_media_tag": true
@@ -7561,9 +7699,21 @@
                                   "privacy": {
                                     "protected": false
                                   },
-                                  "profile_bio": {
-                                    "description": ""
+                                  "professional": {
+                                    "category": [
+                                      {
+                                        "icon_name": "IconBriefcaseStroke",
+                                        "id": 192,
+                                        "name": "Financial Services"
+                                      }
+                                    ],
+                                    "professional_type": "Business",
+                                    "rest_id": "1653035799338942465"
                                   },
+                                  "profile_bio": {
+                                    "description": "\u5f53\u4e16\u4e8b\u518d\u65e0\u5b8c\u7f8e \u53ef\u613f\u5728\u5c81\u6708\u5982\u6b4c\u4e2d\u627e\u4f60"
+                                  },
+                                  "profile_description_language": "zh",
                                   "profile_image_shape": "Circle",
                                   "relationship_perspectives": {
                                     "blocked_by": false,
@@ -7573,7 +7723,7 @@
                                     "live_following": false,
                                     "muting": false
                                   },
-                                  "rest_id": "1562092647065477120",
+                                  "rest_id": "4886983366",
                                   "super_follow_eligible": false,
                                   "super_followed_by": false,
                                   "super_following": false,
@@ -7586,9 +7736,9 @@
                             },
                             "edit_control": {
                               "edit_tweet_ids": [
-                                "1672236226550571009"
+                                "1651968114295463937"
                               ],
-                              "editable_until_msecs": "1687530759000",
+                              "editable_until_msecs": "1682696665000",
                               "edits_remaining": "5",
                               "is_edit_eligible": false
                             },
@@ -7599,16 +7749,16 @@
                               "bookmark_count": 0,
                               "bookmarked": false,
                               "conversation_id_str": "1649191520250245121",
-                              "created_at": "Fri Jun 23 13:32:39 +0000 2023",
+                              "created_at": "Fri Apr 28 15:14:25 +0000 2023",
                               "display_text_range": [
                                 12,
-                                22
+                                136
                               ],
                               "entities": {},
-                              "favorite_count": 0,
+                              "favorite_count": 2,
                               "favorited": false,
-                              "full_text": "@TwitterDev ok twitter",
-                              "id_str": "1672236226550571009",
+                              "full_text": "@TwitterDev such a stupid decision for \uff0442000 per month, you shouldn't own the tweets, they are created by twitter users, not elon musk.",
+                              "id_str": "1651968114295463937",
                               "in_reply_to_screen_name": "XDevelopers",
                               "in_reply_to_status_id_str": "1649191520250245121",
                               "in_reply_to_user_id_str": "2244994945",
@@ -7618,16 +7768,16 @@
                               "reply_count": 0,
                               "retweet_count": 0,
                               "retweeted": false,
-                              "user_id_str": "1562092647065477120"
+                              "user_id_str": "4886983366"
                             },
                             "quick_promote_eligibility": {
                               "eligibility": "IneligibleTweet"
                             },
-                            "rest_id": "1672236226550571009",
-                            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                            "rest_id": "1651968114295463937",
+                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
                             "unmention_data": {},
                             "views": {
-                              "count": "63",
+                              "count": "132",
                               "state": "EnabledWithCount"
                             }
                           }
@@ -7639,14 +7789,14 @@
                 "metadata": {
                   "conversationMetadata": {
                     "allTweetIds": [
-                      "1672236226550571009"
+                      "1651968114295463937"
                     ],
                     "enableDeduplication": true
                   }
                 }
               },
-              "entryId": "conversationthread-1672236226550571009",
-              "sortIndex": "2070478884771462848"
+              "entryId": "conversationthread-1651968114295463937",
+              "sortIndex": "2079663773882252992"
             },
             {
               "content": {
@@ -7658,198 +7808,7 @@
                       "conversationSection": "HighQuality"
                     },
                     "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
-                    }
-                  }
-                },
-                "displayType": "VerticalConversation",
-                "entryType": "TimelineTimelineModule",
-                "items": [
-                  {
-                    "entryId": "conversationthread-1664148856903446528-tweet-1664148856903446528",
-                    "item": {
-                      "clientEventInfo": {
-                        "component": "tweet",
-                        "details": {
-                          "conversationDetails": {
-                            "conversationSection": "HighQuality"
-                          },
-                          "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
-                          }
-                        },
-                        "element": "tweet"
-                      },
-                      "itemContent": {
-                        "__typename": "TimelineTweet",
-                        "itemType": "TimelineTweet",
-                        "tweetDisplayType": "Tweet",
-                        "tweet_results": {
-                          "result": {
-                            "__typename": "Tweet",
-                            "core": {
-                              "user_results": {
-                                "result": {
-                                  "__typename": "User",
-                                  "affiliates_highlighted_label": {},
-                                  "avatar": {
-                                    "image_url": "https://pbs.twimg.com/profile_images/1371467320015552526/TJNArt0t_normal.jpg"
-                                  },
-                                  "core": {
-                                    "created_at": "Thu Nov 06 04:02:46 +0000 2014",
-                                    "name": "Damu\u2022Kon\u2022Tan",
-                                    "screen_name": "DamuKonTan"
-                                  },
-                                  "dm_permissions": {
-                                    "can_dm": false
-                                  },
-                                  "follow_request_sent": false,
-                                  "has_graduated_access": true,
-                                  "id": "VXNlcjoyODkxNzAzMjY2",
-                                  "is_blue_verified": false,
-                                  "legacy": {
-                                    "default_profile": true,
-                                    "default_profile_image": false,
-                                    "description": "",
-                                    "entities": {
-                                      "description": {}
-                                    },
-                                    "fast_followers_count": 0,
-                                    "favourites_count": 1,
-                                    "follow_request_sent": false,
-                                    "followers_count": 1,
-                                    "friends_count": 30,
-                                    "has_custom_timelines": false,
-                                    "is_translator": false,
-                                    "listed_count": 1,
-                                    "media_count": 0,
-                                    "needs_phone_verification": false,
-                                    "normal_followers_count": 1,
-                                    "notifications": false,
-                                    "pinned_tweet_ids_str": [
-                                      "1699234847955534155"
-                                    ],
-                                    "possibly_sensitive": false,
-                                    "profile_banner_url": "",
-                                    "profile_interstitial_type": "",
-                                    "statuses_count": 4,
-                                    "time_zone": "",
-                                    "translator_type": "none",
-                                    "url": "",
-                                    "utc_offset": 0,
-                                    "want_retweets": false,
-                                    "withheld_description": "",
-                                    "withheld_scope": ""
-                                  },
-                                  "location": {
-                                    "location": ""
-                                  },
-                                  "media_permissions": {
-                                    "can_media_tag": true
-                                  },
-                                  "parody_commentary_fan_label": "None",
-                                  "privacy": {
-                                    "protected": false
-                                  },
-                                  "profile_bio": {
-                                    "description": ""
-                                  },
-                                  "profile_description_language": "und",
-                                  "profile_image_shape": "Circle",
-                                  "relationship_perspectives": {
-                                    "blocked_by": false,
-                                    "blocking": false,
-                                    "followed_by": false,
-                                    "following": false,
-                                    "live_following": false,
-                                    "muting": false
-                                  },
-                                  "rest_id": "2891703266",
-                                  "super_follow_eligible": false,
-                                  "super_followed_by": false,
-                                  "super_following": false,
-                                  "tipjar_settings": {},
-                                  "verification": {
-                                    "verified": false
-                                  }
-                                }
-                              }
-                            },
-                            "edit_control": {
-                              "edit_tweet_ids": [
-                                "1664148856903446528"
-                              ],
-                              "editable_until_msecs": "1685600780000",
-                              "edits_remaining": "5",
-                              "is_edit_eligible": false
-                            },
-                            "grok_analysis_button": true,
-                            "has_birdwatch_notes": false,
-                            "is_translatable": false,
-                            "legacy": {
-                              "bookmark_count": 0,
-                              "bookmarked": false,
-                              "conversation_id_str": "1649191520250245121",
-                              "created_at": "Thu Jun 01 05:56:20 +0000 2023",
-                              "display_text_range": [
-                                12,
-                                285
-                              ],
-                              "entities": {},
-                              "favorite_count": 0,
-                              "favorited": false,
-                              "full_text": "@TwitterDev My Twitter developer account was at the Elevated level. However, I noticed that the Elevated level no longer exists. Despite that, I am still able to access the APIs for both v1.1 and v2 under the Elevated level. Will I lose access to the Elevated privileges in the future?",
-                              "id_str": "1664148856903446528",
-                              "in_reply_to_screen_name": "XDevelopers",
-                              "in_reply_to_status_id_str": "1649191520250245121",
-                              "in_reply_to_user_id_str": "2244994945",
-                              "is_quote_status": false,
-                              "lang": "en",
-                              "quote_count": 0,
-                              "reply_count": 1,
-                              "retweet_count": 0,
-                              "retweeted": false,
-                              "user_id_str": "2891703266"
-                            },
-                            "quick_promote_eligibility": {
-                              "eligibility": "IneligibleTweet"
-                            },
-                            "rest_id": "1664148856903446528",
-                            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-                            "unmention_data": {},
-                            "views": {
-                              "count": "240",
-                              "state": "EnabledWithCount"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                ],
-                "metadata": {
-                  "conversationMetadata": {
-                    "allTweetIds": [
-                      "1664148856903446528"
-                    ],
-                    "enableDeduplication": true
-                  }
-                }
-              },
-              "entryId": "conversationthread-1664148856903446528",
-              "sortIndex": "2070478884771462838"
-            },
-            {
-              "content": {
-                "__typename": "TimelineTimelineModule",
-                "clientEventInfo": {
-                  "component": "tweet",
-                  "details": {
-                    "conversationDetails": {
-                      "conversationSection": "HighQuality"
-                    },
-                    "timelinesDetails": {
-                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                     }
                   }
                 },
@@ -7866,7 +7825,7 @@
                             "conversationSection": "HighQuality"
                           },
                           "timelinesDetails": {
-                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ8D01FlAAAAAA=="
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
                           }
                         },
                         "element": "tweet"
@@ -7906,16 +7865,16 @@
                                       "description": {}
                                     },
                                     "fast_followers_count": 0,
-                                    "favourites_count": 26801,
+                                    "favourites_count": 27394,
                                     "follow_request_sent": false,
-                                    "followers_count": 534,
-                                    "friends_count": 969,
+                                    "followers_count": 538,
+                                    "friends_count": 977,
                                     "has_custom_timelines": true,
                                     "is_translator": false,
                                     "listed_count": 4,
                                     "media_count": 957,
                                     "needs_phone_verification": false,
-                                    "normal_followers_count": 534,
+                                    "normal_followers_count": 538,
                                     "notifications": false,
                                     "pinned_tweet_ids_str": [
                                       "1560676162246168576"
@@ -7923,7 +7882,7 @@
                                     "possibly_sensitive": false,
                                     "profile_banner_url": "https://pbs.twimg.com/profile_banners/1507724584254337027/1683993405",
                                     "profile_interstitial_type": "",
-                                    "statuses_count": 3539,
+                                    "statuses_count": 3551,
                                     "time_zone": "",
                                     "translator_type": "none",
                                     "url": "",
@@ -8027,17 +7986,215 @@
                 }
               },
               "entryId": "conversationthread-1649231215319486464",
-              "sortIndex": "2070478884771462828"
+              "sortIndex": "2079663773882252982"
+            },
+            {
+              "content": {
+                "__typename": "TimelineTimelineModule",
+                "clientEventInfo": {
+                  "component": "tweet",
+                  "details": {
+                    "conversationDetails": {
+                      "conversationSection": "HighQuality"
+                    },
+                    "timelinesDetails": {
+                      "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
+                    }
+                  }
+                },
+                "displayType": "VerticalConversation",
+                "entryType": "TimelineTimelineModule",
+                "items": [
+                  {
+                    "entryId": "conversationthread-1673685082903662595-tweet-1673685082903662595",
+                    "item": {
+                      "clientEventInfo": {
+                        "component": "tweet",
+                        "details": {
+                          "conversationDetails": {
+                            "conversationSection": "HighQuality"
+                          },
+                          "timelinesDetails": {
+                            "controllerData": "DAACDAAEDAABCgABAAAAAAAAAAEKAAIAAAAAAAAAAAoAAwAAAZ+GWb/4AAAAAA=="
+                          }
+                        },
+                        "element": "tweet"
+                      },
+                      "itemContent": {
+                        "__typename": "TimelineTweet",
+                        "itemType": "TimelineTweet",
+                        "tweetDisplayType": "Tweet",
+                        "tweet_results": {
+                          "result": {
+                            "__typename": "Tweet",
+                            "core": {
+                              "user_results": {
+                                "result": {
+                                  "__typename": "User",
+                                  "affiliates_highlighted_label": {},
+                                  "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1856334398175469568/h9hTQovD_normal.jpg"
+                                  },
+                                  "core": {
+                                    "created_at": "Mon Jun 29 09:44:53 +0000 2009",
+                                    "name": "Stewie",
+                                    "screen_name": "spikeyman00"
+                                  },
+                                  "dm_permissions": {
+                                    "can_dm": false
+                                  },
+                                  "follow_request_sent": false,
+                                  "has_graduated_access": true,
+                                  "id": "VXNlcjo1MjAxMjQxNA==",
+                                  "is_blue_verified": false,
+                                  "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "BlackHatCat Dev, Crypto, Degen",
+                                    "entities": {
+                                      "description": {}
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 8304,
+                                    "follow_request_sent": false,
+                                    "followers_count": 769,
+                                    "friends_count": 1758,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 5,
+                                    "media_count": 475,
+                                    "needs_phone_verification": false,
+                                    "normal_followers_count": 769,
+                                    "notifications": false,
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/52012414/1716894693",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 10013,
+                                    "time_zone": "",
+                                    "translator_type": "none",
+                                    "url": "",
+                                    "utc_offset": 0,
+                                    "want_retweets": false,
+                                    "withheld_description": "",
+                                    "withheld_scope": ""
+                                  },
+                                  "location": {
+                                    "location": "london"
+                                  },
+                                  "media_permissions": {
+                                    "can_media_tag": true
+                                  },
+                                  "parody_commentary_fan_label": "None",
+                                  "privacy": {
+                                    "protected": false
+                                  },
+                                  "professional": {
+                                    "category": [
+                                      {
+                                        "icon_name": "IconBriefcaseStroke",
+                                        "id": 37,
+                                        "name": "Event Venue"
+                                      }
+                                    ],
+                                    "professional_type": "Creator",
+                                    "rest_id": "1474191664608653313"
+                                  },
+                                  "profile_bio": {
+                                    "description": "BlackHatCat Dev, Crypto, Degen"
+                                  },
+                                  "profile_image_shape": "Circle",
+                                  "relationship_perspectives": {
+                                    "blocked_by": false,
+                                    "blocking": false,
+                                    "followed_by": false,
+                                    "following": false,
+                                    "live_following": false,
+                                    "muting": false
+                                  },
+                                  "rest_id": "52012414",
+                                  "super_follow_eligible": false,
+                                  "super_followed_by": false,
+                                  "super_following": false,
+                                  "tipjar_settings": {},
+                                  "verification": {
+                                    "verified": false
+                                  }
+                                }
+                              }
+                            },
+                            "edit_control": {
+                              "edit_tweet_ids": [
+                                "1673685082903662595"
+                              ],
+                              "editable_until_msecs": "1687876193000",
+                              "edits_remaining": "5",
+                              "is_edit_eligible": false
+                            },
+                            "grok_analysis_button": true,
+                            "has_birdwatch_notes": false,
+                            "is_translatable": false,
+                            "legacy": {
+                              "bookmark_count": 0,
+                              "bookmarked": false,
+                              "conversation_id_str": "1649191520250245121",
+                              "created_at": "Tue Jun 27 13:29:53 +0000 2023",
+                              "display_text_range": [
+                                12,
+                                69
+                              ],
+                              "entities": {},
+                              "favorite_count": 1,
+                              "favorited": false,
+                              "full_text": "@TwitterDev Hi how do we do media uploads if it's not available in V2",
+                              "id_str": "1673685082903662595",
+                              "in_reply_to_screen_name": "XDevelopers",
+                              "in_reply_to_status_id_str": "1649191520250245121",
+                              "in_reply_to_user_id_str": "2244994945",
+                              "is_quote_status": false,
+                              "lang": "en",
+                              "quote_count": 0,
+                              "reply_count": 0,
+                              "retweet_count": 0,
+                              "retweeted": false,
+                              "user_id_str": "52012414"
+                            },
+                            "quick_promote_eligibility": {
+                              "eligibility": "IneligibleTweet"
+                            },
+                            "rest_id": "1673685082903662595",
+                            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                            "unmention_data": {},
+                            "views": {
+                              "count": "97",
+                              "state": "EnabledWithCount"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "metadata": {
+                  "conversationMetadata": {
+                    "allTweetIds": [
+                      "1673685082903662595"
+                    ],
+                    "enableDeduplication": true
+                  }
+                }
+              },
+              "entryId": "conversationthread-1673685082903662595",
+              "sortIndex": "2079663773882252972"
             },
             {
               "content": {
                 "__typename": "TimelineTimelineCursor",
                 "cursorType": "Bottom",
                 "entryType": "TimelineTimelineCursor",
-                "value": "DAAKCgABHLvRk2m__qkLAAIAAAGoRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNVVzR4dTcwMVp3QlJialhEcmRGaUFCRnVONUNIVlhvQWdXNDM2MFFWZUFBeGJqTklkK0duQUNGdU0vRFdXYWtBQVc0eHVVbkJwZ0FCYm9ER2dqbG5BQUZ1Z1JtbFFXSUFjVzZ0VHRaSmZBQUJiakd2TnJHbEFDRnVQc1F4SVh3QU1XN1BnL1dOcGdBUmJqbG9VNjE2QUFGdU1hODdCYVVBRVc0eHJ6S3hvd0FSYmp2Tzh6bDdBQkZ1U0lJYnBhUUFBVzQ3OVJlVllBQUJiamhkcmlGNkFDRnVNbnQzVFhnQUVXNHhyeitKcHdBQmJqSUV6dlZnQURGdU1lclEwWDBBSVc0OUs2TDlZZ0FSYzRFYkxhbDdBQkZ2c0VNM0RhY0FJWE5QbjgrQllnQVJjWVBwRjlHakFBRnVOVkRxTGFjQUFXNHh5Yk0xWWdDQmJqZURFakZzQUJGdU02Q05IYWNBQVc0M21IcDllQUJCYmpsMDIxMTdBR0Z1TW0zTytYMEFBVzR4NjJzeFp3QUE9PQgAAwAAAAILAAQAAAAGQm90dG9tAAA"
+                "value": "DAAKCgABHNxzLw5__qkLAAIAAAGoRW1QQzZ3QUFBZlEvZ0dKTjB2R3AvQUFBQUNVVzR4dTcwMVp3QlJialhEcmRGaUFCRnVONUNIVlhvQWdXNDM2MFFWZUFBeGJqTklkK0duQUNGdU0vRFdXYWtBQVc0eHVVbkJwZ0FCYm9ER2dqbG5BQUZ1Z1JtbFFXSUFjVzZ0VHRaSmZBQUJiakd2TnJHbEFDRnVQc1F4SVh3QU1XN1BnL1dOcGdBUmJqbG9VNjE2QUFGdU1hODdCYVVBRVc0eHJ6S3hvd0FSYmp2Tzh6bDdBQkZ1U0lJYnBhUUFBVzQ3OVJlVllBQUJiamhkcmlGNkFDRnVNbnQzVFhnQUVXNDc3b2twWmdBQmJqR3ZQNG1uQUFGdU1nVE85V0FBTVc0eDZ0RFJmUUFoYmowcm92MWlBQkZ6Z1JzdHFYc0FFVyt3UXpjTnB3QWhialZRNmkybkFBRnVNY216TldJQWdXNDNneEl4YkFBUmJqT2dqUjJuQUFGdU41aDZmWGdBUVhPaCszSUZmUUF4YmpsMDIxMTdBR0Z1TW0zTytYMEFBVzR4NjJzeFp3QUE9PQgAAwAAAAILAAQAAAAGQm90dG9tAAA"
               },
-              "entryId": "cursor-bottom-2070478884771462827",
-              "sortIndex": "2070478884771462827"
+              "entryId": "cursor-bottom-2079663773882252971",
+              "sortIndex": "2079663773882252971"
             }
           ],
           "type": "TimelineAddEntries"

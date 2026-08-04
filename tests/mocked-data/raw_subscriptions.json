@@ -58,16 +58,16 @@
                                 "description": {}
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 7480,
+                              "favourites_count": 7855,
                               "follow_request_sent": false,
-                              "followers_count": 119658,
-                              "friends_count": 1424,
+                              "followers_count": 123303,
+                              "friends_count": 1441,
                               "has_custom_timelines": false,
                               "is_translator": false,
-                              "listed_count": 302,
-                              "media_count": 160,
+                              "listed_count": 309,
+                              "media_count": 167,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 119658,
+                              "normal_followers_count": 123303,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "1968999965687963724"
@@ -75,7 +75,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/136399966/1769966022",
                               "profile_interstitial_type": "",
-                              "statuses_count": 4661,
+                              "statuses_count": 4821,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "",
@@ -119,7 +119,7 @@
                       }
                     },
                     "entryId": "user-136399966",
-                    "sortIndex": "2070478872452792320"
+                    "sortIndex": "2079663761165123584"
                   },
                   {
                     "content": {
@@ -173,16 +173,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 9696,
+                              "favourites_count": 9733,
                               "follow_request_sent": false,
-                              "followers_count": 308890,
-                              "friends_count": 3575,
+                              "followers_count": 309262,
+                              "friends_count": 3596,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 2517,
-                              "media_count": 4818,
+                              "listed_count": 2527,
+                              "media_count": 5013,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 308890,
+                              "normal_followers_count": 309262,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "2000174714233167982"
@@ -190,7 +190,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/56302171/1621338166",
                               "profile_interstitial_type": "",
-                              "statuses_count": 34456,
+                              "statuses_count": 34770,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/iU9F1gsb4W",
@@ -248,7 +248,7 @@
                       }
                     },
                     "entryId": "user-56302171",
-                    "sortIndex": "2070478872452792319"
+                    "sortIndex": "2079663761165123583"
                   },
                   {
                     "content": {
@@ -286,30 +286,43 @@
                               "default_profile_image": false,
                               "description": "David J. Freeman | Political Commentator | Commentary, Opinion & Satire",
                               "entities": {
-                                "description": {}
+                                "description": {},
+                                "url": {
+                                  "urls": [
+                                    {
+                                      "display_url": "youtube.com/@doubleeaglema\u2026",
+                                      "expanded_url": "https://www.youtube.com/@doubleeaglemanpodcast",
+                                      "indices": [
+                                        0,
+                                        23
+                                      ],
+                                      "url": "https://t.co/jvHIffT4rL"
+                                    }
+                                  ]
+                                }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 1278941,
+                              "favourites_count": 1293794,
                               "follow_request_sent": false,
-                              "followers_count": 1750176,
-                              "friends_count": 103755,
+                              "followers_count": 1756148,
+                              "friends_count": 104042,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 5112,
-                              "media_count": 62136,
+                              "listed_count": 5066,
+                              "media_count": 64015,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 1750176,
+                              "normal_followers_count": 1756148,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
-                                "2070213098011787573"
+                                "2078562973249900992"
                               ],
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1355721251180961792/1740358024",
                               "profile_interstitial_type": "",
-                              "statuses_count": 482611,
+                              "statuses_count": 489950,
                               "time_zone": "",
                               "translator_type": "none",
-                              "url": "",
+                              "url": "https://t.co/jvHIffT4rL",
                               "utc_offset": 0,
                               "want_retweets": false,
                               "withheld_description": "",
@@ -353,7 +366,7 @@
                       }
                     },
                     "entryId": "user-1355721251180961792",
-                    "sortIndex": "2070478872452792318"
+                    "sortIndex": "2079663761165123582"
                   },
                   {
                     "content": {
@@ -407,16 +420,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 116680,
+                              "favourites_count": 117553,
                               "follow_request_sent": false,
-                              "followers_count": 51538,
-                              "friends_count": 15372,
+                              "followers_count": 51407,
+                              "friends_count": 15399,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 283,
-                              "media_count": 5559,
+                              "listed_count": 285,
+                              "media_count": 5592,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 51538,
+                              "normal_followers_count": 51407,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "2062251664070082823"
@@ -424,7 +437,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/953298828253384704/1775182338",
                               "profile_interstitial_type": "",
-                              "statuses_count": 133458,
+                              "statuses_count": 134244,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/eycTJdRcvt",
@@ -471,7 +484,7 @@
                       }
                     },
                     "entryId": "user-953298828253384704",
-                    "sortIndex": "2070478872452792317"
+                    "sortIndex": "2079663761165123581"
                   },
                   {
                     "content": {
@@ -507,7 +520,7 @@
                             "legacy": {
                               "default_profile": true,
                               "default_profile_image": false,
-                              "description": "Stories the mainstream buries. Banned during COVID. Built and led by a healthcare professional turned citizen journalist.",
+                              "description": "Independent news, founded by a healthcare professional turned citizen journalist. Banned during COVID. Covering the stories the mainstream buries.",
                               "entities": {
                                 "description": {},
                                 "url": {
@@ -525,24 +538,24 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 48964,
+                              "favourites_count": 49214,
                               "follow_request_sent": false,
-                              "followers_count": 1969431,
-                              "friends_count": 2955,
+                              "followers_count": 1973300,
+                              "friends_count": 2990,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 6726,
-                              "media_count": 23939,
+                              "listed_count": 6735,
+                              "media_count": 24350,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 1969431,
+                              "normal_followers_count": 1973300,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
-                                "2070260188716921052"
+                                "2078314173402914839"
                               ],
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/191871143/1773296618",
                               "profile_interstitial_type": "",
-                              "statuses_count": 50288,
+                              "statuses_count": 50740,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/OVSw4akBt6",
@@ -572,7 +585,7 @@
                               "rest_id": "1457491221048352768"
                             },
                             "profile_bio": {
-                              "description": "Stories the mainstream buries. Banned during COVID. Built and led by a healthcare professional turned citizen journalist."
+                              "description": "Independent news, founded by a healthcare professional turned citizen journalist. Banned during COVID. Covering the stories the mainstream buries."
                             },
                             "profile_description_language": "en",
                             "profile_image_shape": "Square",
@@ -604,7 +617,7 @@
                       }
                     },
                     "entryId": "user-191871143",
-                    "sortIndex": "2070478872452792316"
+                    "sortIndex": "2079663761165123580"
                   },
                   {
                     "content": {
@@ -658,24 +671,24 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 27799,
+                              "favourites_count": 28138,
                               "follow_request_sent": false,
-                              "followers_count": 2345163,
-                              "friends_count": 567,
+                              "followers_count": 2349557,
+                              "friends_count": 566,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 5611,
-                              "media_count": 3452,
+                              "listed_count": 5601,
+                              "media_count": 3472,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 2345163,
+                              "normal_followers_count": 2349557,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
-                                "2069840468175720946"
+                                "2076983573370794405"
                               ],
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/875856268056969216/1732626168",
                               "profile_interstitial_type": "",
-                              "statuses_count": 16701,
+                              "statuses_count": 16789,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/xCJw2nXBn2",
@@ -732,7 +745,7 @@
                       }
                     },
                     "entryId": "user-875856268056969216",
-                    "sortIndex": "2070478872452792315"
+                    "sortIndex": "2079663761165123579"
                   },
                   {
                     "content": {
@@ -783,30 +796,43 @@
                               "default_profile_image": false,
                               "description": "Starmind",
                               "entities": {
-                                "description": {}
+                                "description": {},
+                                "url": {
+                                  "urls": [
+                                    {
+                                      "display_url": "spacex.com/spacexai/starm\u2026",
+                                      "expanded_url": "https://www.spacex.com/spacexai/starmind#power-generation",
+                                      "indices": [
+                                        0,
+                                        23
+                                      ],
+                                      "url": "https://t.co/lvCfXMHUg6"
+                                    }
+                                  ]
+                                }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 236295,
+                              "favourites_count": 239871,
                               "follow_request_sent": false,
-                              "followers_count": 240503644,
-                              "friends_count": 1358,
+                              "followers_count": 240977222,
+                              "friends_count": 1370,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 169817,
-                              "media_count": 4569,
+                              "listed_count": 170096,
+                              "media_count": 4627,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 240503644,
+                              "normal_followers_count": 240977222,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
-                                "2070042592012570970"
+                                "2079430412837757338"
                               ],
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/44196397/1774145451",
                               "profile_interstitial_type": "",
-                              "statuses_count": 104823,
+                              "statuses_count": 105812,
                               "time_zone": "",
                               "translator_type": "none",
-                              "url": "",
+                              "url": "https://t.co/lvCfXMHUg6",
                               "utc_offset": 0,
                               "want_retweets": true,
                               "withheld_description": "",
@@ -854,7 +880,7 @@
                       }
                     },
                     "entryId": "user-44196397",
-                    "sortIndex": "2070478872452792314"
+                    "sortIndex": "2079663761165123578"
                   },
                   {
                     "content": {
@@ -908,16 +934,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 34210,
+                              "favourites_count": 34208,
                               "follow_request_sent": false,
-                              "followers_count": 135761,
-                              "friends_count": 1293,
+                              "followers_count": 135383,
+                              "friends_count": 1292,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 518,
+                              "listed_count": 519,
                               "media_count": 7356,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 135761,
+                              "normal_followers_count": 135383,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "1676908854289010689"
@@ -925,7 +951,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "",
                               "profile_interstitial_type": "",
-                              "statuses_count": 32757,
+                              "statuses_count": 32754,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/FBB0fquVp7",
@@ -969,7 +995,7 @@
                       }
                     },
                     "entryId": "user-526653893",
-                    "sortIndex": "2070478872452792313"
+                    "sortIndex": "2079663761165123577"
                   },
                   {
                     "content": {
@@ -1023,16 +1049,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 10219,
+                              "favourites_count": 10231,
                               "follow_request_sent": false,
-                              "followers_count": 146904,
-                              "friends_count": 839,
+                              "followers_count": 146867,
+                              "friends_count": 843,
                               "has_custom_timelines": false,
                               "is_translator": false,
-                              "listed_count": 220,
-                              "media_count": 1597,
+                              "listed_count": 222,
+                              "media_count": 1599,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 146904,
+                              "normal_followers_count": 146867,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "2012631323110789122"
@@ -1040,7 +1066,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1242258668638236672/1726024953",
                               "profile_interstitial_type": "",
-                              "statuses_count": 4715,
+                              "statuses_count": 4737,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/nUU4egN2r2",
@@ -1089,7 +1115,7 @@
                       }
                     },
                     "entryId": "user-1242258668638236672",
-                    "sortIndex": "2070478872452792312"
+                    "sortIndex": "2079663761165123576"
                   },
                   {
                     "content": {
@@ -1143,16 +1169,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 120393,
+                              "favourites_count": 120267,
                               "follow_request_sent": false,
-                              "followers_count": 1061259,
+                              "followers_count": 1058126,
                               "friends_count": 1174,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 2784,
+                              "listed_count": 2771,
                               "media_count": 3603,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 1061259,
+                              "normal_followers_count": 1058126,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "2010559237944971570"
@@ -1160,7 +1186,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/2874102076/1755464103",
                               "profile_interstitial_type": "",
-                              "statuses_count": 31531,
+                              "statuses_count": 31530,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/83l0GMIMSd",
@@ -1211,7 +1237,7 @@
                       }
                     },
                     "entryId": "user-2874102076",
-                    "sortIndex": "2070478872452792311"
+                    "sortIndex": "2079663761165123575"
                   },
                   {
                     "content": {
@@ -1265,16 +1291,16 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 30220,
+                              "favourites_count": 30150,
                               "follow_request_sent": false,
-                              "followers_count": 374722,
+                              "followers_count": 374558,
                               "friends_count": 95,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 1452,
+                              "listed_count": 1450,
                               "media_count": 981,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 374722,
+                              "normal_followers_count": 374558,
                               "notifications": false,
                               "pinned_tweet_ids_str": [
                                 "1867323873454076027"
@@ -1282,7 +1308,7 @@
                               "possibly_sensitive": false,
                               "profile_banner_url": "https://pbs.twimg.com/profile_banners/1031747223569227776/1633194150",
                               "profile_interstitial_type": "",
-                              "statuses_count": 39479,
+                              "statuses_count": 39461,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/dDpsh5TM86",
@@ -1326,7 +1352,7 @@
                       }
                     },
                     "entryId": "user-1031747223569227776",
-                    "sortIndex": "2070478872452792310"
+                    "sortIndex": "2079663761165123574"
                   },
                   {
                     "content": {
@@ -1380,21 +1406,21 @@
                                 }
                               },
                               "fast_followers_count": 0,
-                              "favourites_count": 15611,
+                              "favourites_count": 15763,
                               "follow_request_sent": false,
-                              "followers_count": 641448,
-                              "friends_count": 24,
+                              "followers_count": 640305,
+                              "friends_count": 25,
                               "has_custom_timelines": true,
                               "is_translator": false,
-                              "listed_count": 1633,
-                              "media_count": 2094,
+                              "listed_count": 1631,
+                              "media_count": 2112,
                               "needs_phone_verification": false,
-                              "normal_followers_count": 641448,
+                              "normal_followers_count": 640305,
                               "notifications": false,
                               "possibly_sensitive": false,
                               "profile_banner_url": "",
                               "profile_interstitial_type": "",
-                              "statuses_count": 9431,
+                              "statuses_count": 9472,
                               "time_zone": "",
                               "translator_type": "none",
                               "url": "https://t.co/J4P5l0342M",
@@ -1446,27 +1472,27 @@
                       }
                     },
                     "entryId": "user-1145866561271554048",
-                    "sortIndex": "2070478872452792309"
+                    "sortIndex": "2079663761165123573"
                   },
                   {
                     "content": {
                       "__typename": "TimelineTimelineCursor",
                       "cursorType": "Bottom",
                       "entryType": "TimelineTimelineCursor",
-                      "value": "0|2070478872452792306"
+                      "value": "0|2079663761165123570"
                     },
-                    "entryId": "cursor-bottom-2070478872452792308",
-                    "sortIndex": "2070478872452792308"
+                    "entryId": "cursor-bottom-2079663761165123572",
+                    "sortIndex": "2079663761165123572"
                   },
                   {
                     "content": {
                       "__typename": "TimelineTimelineCursor",
                       "cursorType": "Top",
                       "entryType": "TimelineTimelineCursor",
-                      "value": "-1|2070478872452792321"
+                      "value": "-1|2079663761165123585"
                     },
-                    "entryId": "cursor-top-2070478872452792321",
-                    "sortIndex": "2070478872452792321"
+                    "entryId": "cursor-top-2079663761165123585",
+                    "sortIndex": "2079663761165123585"
                   }
                 ],
                 "type": "TimelineAddEntries"

@@ -1,15 +1,25 @@
 import asyncio
 import json
 import os
+from enum import Enum, auto
 from typing import Any
 from urllib.parse import urlparse
 
 from . import telemetry
-from .accounts_pool import Account, AccountsPool
-from .http import ConnectError, HttpClient, HttpMethod, HttpStatusError, NetworkError, Response
+from .account import Account, has_required_cookies
+from .accounts_pool import AccountsPool
+from .http import (
+    ConnectError,
+    HttpClient,
+    HttpMethod,
+    HttpStatusError,
+    NetworkError,
+    Response,
+    format_error,
+)
 from .logger import logger
 from .utils import utc
-from .xclid import XClIdGen
+from .xclid import XClIdAccountError, XClIdGen, XClIdParseError
 
 ReqParams = dict[str, str | int] | None
 TMP_TS = utc.now().isoformat().split(".")[0].replace("T", "_").replace(":", "-")[0:16]
@@ -21,37 +31,47 @@ class HandledError(Exception): ...
 class AbortReqError(Exception): ...
 
 
+class GqlFeaturesOutdatedError(AbortReqError):
+    """GQL_FEATURES in api.py no longer matches the X API. Retrying cannot help."""
+
+
+class FailKind(Enum):
+    TRANSPORT = auto()
+    UNKNOWN = auto()
+
+
 class XClIdGenStore:
-    items: dict[str, XClIdGen] = {}  # username -> XClIdGen
+    items: dict[str, XClIdGen] = {}
 
     @classmethod
-    async def get(cls, username: str, fresh=False) -> XClIdGen:
+    async def get(
+        cls,
+        username: str,
+        proxy: str | None = None,
+        cookies: dict[str, str] | None = None,
+        fresh=False,
+    ) -> XClIdGen:
         if username in cls.items and not fresh:
             return cls.items[username]
 
-        tries = 0
-        while tries < 3:
-            try:
-                clid_gen = await XClIdGen.create()
-                cls.items[username] = clid_gen
-                return clid_gen
-            except Exception as e:
-                tries += 1
-                logger.warning(
-                    f"XClIdGen creation attempt {tries}/3 failed: {type(e).__name__}: {e}"
-                )
-                await asyncio.sleep(1)
-
-        raise AbortReqError(
-            "Failed to create XClIdGen. See: https://github.com/vladkens/twscrape/issues/248"
-        )
+        clid_gen = await XClIdGen.create(proxy=proxy, cookies=cookies)
+        cls.items[username] = clid_gen
+        return clid_gen
 
 
 class Ctx:
-    def __init__(self, acc: Account, clt: HttpClient):
+    def __init__(self, acc: Account, clt: HttpClient, proxy: str | None = None):
         self.req_count = 0
         self.acc = acc
         self.clt = clt
+        self.proxy = proxy
+        self.fails = {FailKind.TRANSPORT: 0, FailKind.UNKNOWN: 0}
+
+    def fail(self, kind: FailKind) -> bool:
+        """Count a failed attempt of this kind, return whether it's still worth retrying."""
+        fail_limit, total_fail_limit = 3, 4
+        self.fails[kind] += 1
+        return self.fails[kind] < fail_limit and sum(self.fails.values()) < total_fail_limit
 
     async def aclose(self):
         await self.clt.aclose()
@@ -63,7 +83,12 @@ class Ctx:
 
         tries = 0
         while tries < 3:
-            gen = await XClIdGenStore.get(self.acc.username, fresh=tries > 0)
+            gen = await XClIdGenStore.get(
+                self.acc.username,
+                proxy=self.proxy,
+                cookies=self.acc.cookies,
+                fresh=tries > 0,
+            )
             hdr = {"x-client-transaction-id": gen.calc(method, path)}
             rep = await self.clt.request(method, url, params=params, headers=hdr)
             if rep.status_code != 404:
@@ -157,8 +182,15 @@ class QueueClient:
             return None
 
         clt = acc.make_client(proxy=self.proxy)
-        self.ctx = Ctx(acc, clt)
+        self.ctx = Ctx(acc, clt, proxy=acc.resolve_proxy(self.proxy))
         return self.ctx
+
+    def _format_ctx_error(self, ctx: Ctx, error: Exception | str) -> str:
+        message = format_error(error) if isinstance(error, Exception) else error
+        return (
+            f"{message}; username={ctx.acc.username}; queue={self.queue}; "
+            f"backend={getattr(ctx.clt, 'backend', 'unknown')}; proxy={bool(ctx.proxy)}"
+        )
 
     async def _check_rep(self, rep: Response) -> None:
         """
@@ -194,7 +226,7 @@ class QueueClient:
         # for dev: need to add some features in api.py
         if err_msg.startswith("(336) The following features cannot be null"):
             logger.error(f"[DEV] Update required: {err_msg}")
-            exit(1)
+            raise GqlFeaturesOutdatedError(f"Update GQL_FEATURES in api.py: {err_msg}")
 
         # general api rate limit
         if limit_remaining == 0 and limit_reset > 0:
@@ -257,12 +289,18 @@ class QueueClient:
         return await self.req("GET", url, params=params)
 
     async def req(self, method: HttpMethod, url: str, params: ReqParams = None) -> Response | None:
-        unknown_retry, connection_retry = 0, 0
-
         while True:
-            ctx = await self._get_ctx()  # not need to close client, class implements __aexit__
+            # 1. same ctx until _close_ctx() clears it — that's retry vs rotate
+            # 2. no aclose() needed here, __aexit__ handles it
+            ctx = await self._get_ctx()
             if ctx is None:
                 return None
+
+            if not has_required_cookies(ctx.acc.cookies):
+                msg = "Missing authentication cookies"
+                logger.warning(self._format_ctx_error(ctx, msg))
+                await self._close_ctx(inactive=True, msg=msg)
+                continue
 
             try:
                 source = telemetry.current_source()
@@ -281,30 +319,46 @@ class QueueClient:
                 await self._check_rep(rep)
 
                 ctx.req_count += 1  # count only successful
-                unknown_retry, connection_retry = 0, 0
                 return rep
+            except GqlFeaturesOutdatedError:
+                # structurally invalid request, retrying cannot help — let the caller see it
+                raise
             except AbortReqError:
                 # abort all queries
                 return
             except HandledError:
                 # retry with new account
                 continue
-            except NetworkError:
-                # http transport failed, just retry with same account
+            except XClIdAccountError as e:
+                logger.warning(self._format_ctx_error(ctx, e))
+                await self._close_ctx(utc.ts() + 60 * 15)
                 continue
-            except ConnectError as e:
-                # if proxy misconfigured or host unreachable
-                connection_retry += 1
-                if connection_retry >= 3:
-                    raise e
-            except Exception as e:
-                unknown_retry += 1
-                if unknown_retry >= 3:
-                    msg = [
-                        "Unknown error. Account timeouted for 15 minutes.",
-                        "Create issue please: https://github.com/vladkens/twscrape/issues",
-                        f"If it mistake, you can unlock accounts with `twscrape reset_locks`. Err: {type(e)}: {e}",
-                    ]
+            except XClIdParseError as e:
+                logger.error(
+                    f"{self._format_ctx_error(ctx, e)}; "
+                    "Report: https://github.com/vladkens/twscrape/issues"
+                )
+                await self._close_ctx()
+                return None
+            except (NetworkError, ConnectError) as e:
+                # transport failed, retry same account with backoff, then cool it down and rotate
+                if ctx.fail(FailKind.TRANSPORT):
+                    await asyncio.sleep(2 ** ctx.fails[FailKind.TRANSPORT])
+                    continue
 
-                    logger.warning(" ".join(msg))
-                    await self._close_ctx(utc.ts() + 60 * 15)  # 15 minutes
+                logger.warning(f"{self._format_ctx_error(ctx, e)}; cooling account for 60s")
+                await self._close_ctx(utc.ts() + 60)
+                continue
+            except Exception as e:
+                if ctx.fail(FailKind.UNKNOWN):
+                    continue
+
+                msg = [
+                    "Unknown error. Account timeouted for 15 minutes.",
+                    "Create issue please: https://github.com/vladkens/twscrape/issues",
+                    "If it mistake, you can unlock accounts with `twscrape reset_locks`. "
+                    f"Err: {self._format_ctx_error(ctx, e)}",
+                ]
+
+                logger.warning(" ".join(msg))
+                await self._close_ctx(utc.ts() + 60 * 15)  # 15 minutes
